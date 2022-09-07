@@ -15,36 +15,48 @@
     
     <header>
         <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-            <div class="container d-flex flex-column">
-              <div>
+            <div class="nav-content container">
+              <div class="d-flex flex-row w-75 justify-content-between">
                 <a class="navbar-brand" href="index.html"><h2>WebStore</h2></a>
+                <a class="navbar-brand" href="#"><p>Login</p></a>
               </div>
-
-              <div>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarCollapse">
-                  <ul class="navbar-nav me-auto mb-2 mb-md-0">
-                    <li class="nav-item">
-                      <a class="nav-link active" aria-current="page" href="index.html">Feminino</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Feminino</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="anime.html">Masculino</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">Beleza</a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Perfumes</a></li>
+                      <li><a class="dropdown-item" href="#">Cremes</a></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="sobre.html">Suporte</a>
                     </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="anime.html">Masculino</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="filmes.html">Beleza</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="sobre.html">Suporte</a>
-                      </li>
-                  </ul>
-                </div>
+                </ul>
+                <form role="search" class="form-input">
+                  <input class="p-2 h-75" type="search" placeholder="Search" aria-label="Search">
+                </form>
               </div>
             </div>
         </nav>
     </header>
     
+    <main>
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+        <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+      </svg>
+    </main>
+
     <script src="boostrap/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>

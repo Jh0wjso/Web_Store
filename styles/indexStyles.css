@@ -1,0 +1,10 @@
+.nav-content{
+    display: flex;
+    flex-direction: column;
+    padding: 0.5%;
+}
+
+.form-input
+{
+    margin-left: 50px;
+}
