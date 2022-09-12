@@ -1,3 +1,13 @@
+::-moz-selection { /* Code for Firefox */
+    color: rgb(255, 255, 255);
+    background: rgb(63, 63, 63);
+}
+  
+::selection {
+    color: rgb(255, 255, 255);
+    background: rgb(63, 63, 63);
+}
+
 .nav-content{
     display: flex;
     flex-direction: column;
@@ -33,13 +43,6 @@
     text-decoration: underline;
 }
 
-.login-content{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-}
-
 .form-input
 {
     margin-left: 50px;
@@ -71,8 +74,7 @@
 
 .btn-search{
     background-color: rgb(40, 40, 40);
-    border-width: 2px;
-    border-left-width: 0px;
+    border: none;
     display: flex;
     justify-content: center;
     width: 17%;
@@ -81,8 +83,20 @@
     border-bottom-right-radius: 5px;
 }
 
+.btn-search:hover{
+    background-color: #717070;
+    transition: 0.5s ease;
+    -webkit-transition: 0.5s ease;
+    -moz-transition: 0.5s ease;
+    -ms-transition: 0.5s ease;
+    -o-transition: 0.5s ease;
+}
+
 @media screen and (max-width: 700px){
     .disclaimer-content{
+        display: none;
+    }
+    .text-login{
         display: none;
     }
 }
