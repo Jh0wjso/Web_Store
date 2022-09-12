@@ -1,3 +1,7 @@
+*{
+    box-sizing: border-box;
+}
+
 ::-moz-selection { /* Code for Firefox */
     color: rgb(255, 255, 255);
     background: rgb(63, 63, 63);
@@ -91,6 +95,50 @@
     -ms-transition: 0.5s ease;
     -o-transition: 0.5s ease;
 }
+  
+.carousel {
+margin-bottom: 4rem;
+}
+
+.carousel-caption {
+bottom: 3rem;
+z-index: 10;
+}
+
+.carousel-item {
+height: 32rem;
+}
+.carousel-item > img {
+position: absolute;
+top: 0;
+left: 0;
+min-width: 100%;
+height: 32rem;
+}
+
+
+.marketing .col-lg-4 {
+margin-bottom: 1.5rem;
+text-align: center;
+}
+.marketing h2 {
+font-weight: 400;
+}
+.marketing .col-lg-4 p {
+margin-right: .75rem;
+margin-left: .75rem;
+}
+
+.featurette-heading {
+font-weight: 300;
+line-height: 1;
+letter-spacing: -.05rem;
+}
+  
+  
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
 
 @media screen and (max-width: 700px){
     .disclaimer-content{
