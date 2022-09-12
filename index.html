@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,123 +10,128 @@
     <link rel="canonical" href="https://getbootstrap.com/docs/4.3/examples/carousel/">
     <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/album/">
     <link href="boostrap/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-</head>
-<body>
-    
-  <header>
-    <nav class="navbarcontainer navbar navbar-expand-md navbar-light bg-white">
-      <section class="disclaimer-content ">
-        <div class="d-flex flex-row align-items-center">
-          <a href="#" class="texto-info text-uppercase m-sm-2">Entregamos para todo o Brasil</a>
-          <a href="#" class="texto-info text-uppercase">Frete Grátis*</a>
-        </div>
-        <div class="d-flex flex-row align-items-center">
-          <a href="#" class="texto-info text-uppercase m-sm-2">Canais de atendimento</a>
-          <a href="#" class="texto-info text-uppercase">Suporte</a>
-        </div>
-      </section>
-      <div class="nav-content w-100">
-        <div class=" d-flex flex-row w-75 justify-content-between align-items-center">
-          <a class="navbar-brand login-button text-uppercase text-decoration-none" href="index.html"><h2>WebStore</h2></a>
-          <a href="#" class="login-button text-uppercase d-flex ">
-            <p class="text-login text-center">Entre ou cadastre-se</p>
-            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-person-circle m-lg-1" viewBox="0 0 16 16">
-              <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"></path>
-              <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"></path>
-            </svg>
-          </a>
-        </div>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <section class="pb-3">
-          <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav me-auto mb-2 mb-md-0">
-              <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="./pages/feminino.html">Feminino</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./pages/maculino.html">Masculino</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">Beleza</a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="./pages/perfumes.html">Perfumes</a></li>
-                  <li><a class="dropdown-item" href="./pages/cremes.html">Cremes</a></li>
-                </ul>
-              </li>
-              <li class="nav-item">
-                  <a class="nav-link" href="./pages/suporte.html">Suporte</a>
-                </li>
-            </ul>
-            <form role="search" class="form-input d-flex">
-              <input class="src-input p-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn-search p-2 justify-content-center align-items-center">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search text-light" viewBox="0 0 16 16">
-                  <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
-                </svg>
-              </button>
-            </form>
+
+    <script src="scripts/index.js"></script>
+    <script src="boostrap/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  </head>
+  <body>
+      
+    <header>
+      <nav class="navbarcontainer navbar navbar-expand-md navbar-light bg-white">
+        <section class="disclaimer-content ">
+          <div class="d-flex flex-row align-items-center">
+            <a href="#" class="texto-info text-uppercase m-sm-2">Entregamos para todo o Brasil</a>
+            <a href="#" class="texto-info text-uppercase">Frete Grátis*</a>
+          </div>
+          <div class="d-flex flex-row align-items-center">
+            <a href="#" class="texto-info text-uppercase m-sm-2">Canais de atendimento</a>
+            <a href="#" class="texto-info text-uppercase">Suporte</a>
           </div>
         </section>
-      </div>
-    </nav>
-    <hr class="featurette-divider" id="divider-one">
-  </header>
-
-  <main>
-    <div class="container">
-      <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <div class="nav-content w-100">
+          <div class=" d-flex flex-row w-75 justify-content-between align-items-center">
+            <a class="navbar-brand login-button text-uppercase text-decoration-none" href="index.html"><h2>WebStore</h2></a>
+            <a href="#" class="login-button text-uppercase d-flex ">
+              <p class="text-login text-center">Entre ou cadastre-se</p>
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-person-circle m-lg-1" viewBox="0 0 16 16">
+                <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"></path>
+                <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"></path>
+              </svg>
+            </a>
+          </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <section class="pb-3">
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+              <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="./pages/feminino.html">Feminino</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./pages/maculino.html">Masculino</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">Beleza</a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="./pages/perfumes.html">Perfumes</a></li>
+                    <li><a class="dropdown-item" href="./pages/cremes.html">Cremes</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./pages/suporte.html">Suporte</a>
+                  </li>
+              </ul>
+              <form role="search" class="form-input d-flex">
+                <input class="src-input p-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn-search p-2 justify-content-center align-items-center">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search text-light" viewBox="0 0 16 16">
+                    <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                  </svg>
+                </button>
+              </form>
+            </div>
+          </section>
         </div>
-        <div class="carousel-inner">
-          <a href="#" class="carousel-item active">
-            <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="black"/></svg>
-    
-            <div class="container">
-              <div class="carousel-caption text-start">
-                <h1>Roupas para todo tipo de mulher.</h1>
-                <p>Das mais diversas cores e estilos.</p>
-              </div>
-            </div>
-          </a>
-          <a href="#" class="carousel-item item_carousel">
-            <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="black"/></svg>
-    
-            <div class="container">
-              <div class="carousel-caption">
-                <h1>Produtos de Beleza.</h1>
-                <p>*************.</p>
-              </div>
-            </div>
-          </a>
-          <a href="#" class="carousel-item">
-            <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="black"/></svg>
-    
-            <div class="container">
-              <div class="carousel-caption text-end">
-                <h1>Roupas masculinas</h1>
-                <p>Camisas, camisetas, ternos e muito mais.</p>
-              </div>
-            </div>
-          </a>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div>
-    </div>
-  </main>
+      </nav>
+      <hr class="featurette-divider" id="divider-one">
+    </header>
 
-  <script src="scripts/index.js"></script>
-  <script src="boostrap/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-</body>
+    <main>
+      <div class="container">
+        <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <a href="#" class="carousel-item active">
+              <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="black"/></svg>
+      
+              <div class="container">
+                <div class="carousel-caption text-start">
+                  <h1>Roupas para todo tipo de mulher.</h1>
+                  <p>Das mais diversas cores e estilos.</p>
+                </div>
+              </div>
+            </a>
+            <a href="#" class="carousel-item item_carousel">
+              <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="black"/></svg>
+      
+              <div class="container">
+                <div class="carousel-caption">
+                  <h1>Produtos de Beleza.</h1>
+                  <p>Perfumes, Cremes e muito mais.</p>
+                </div>
+              </div>
+            </a>
+            <a href="#" class="carousel-item">
+              <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="black"/></svg>
+      
+              <div class="container">
+                <div class="carousel-caption text-end">
+                  <h1>Roupas masculinas</h1>
+                  <p>Camisas, camisetas, ternos e muito mais.</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </main>
+
+
+    <footer class="mt-5 mb-0 w-100 text-center text-small">
+      <p>&copy; WebStore</p>
+    </footer>
+  </body>
 </html>
