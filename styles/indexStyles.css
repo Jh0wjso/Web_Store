@@ -126,7 +126,13 @@
 .marketing .col-lg-4 p {
     margin-right: .75rem;
     margin-left: .75rem;
-} 
+}
+
+.item-card{
+    border: 10px;
+    border-right-width: 100px;
+    border-color: #ee0a0a;
+}
   
 /* RESPONSIVE CSS
 -------------------------------------------------- */
