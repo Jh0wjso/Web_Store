@@ -133,33 +133,42 @@
     border-right-width: 100px;
     border-color: #ee0a0a;
 }
+
+#card-example{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
   
 /* RESPONSIVE CSS
 -------------------------------------------------- */
-  
-@media (min-width: 40em) {
+
+@media screen and (max-width: 700px){
+
     .carousel-caption p {
         margin-bottom: 1.25rem;
         font-size: 1.25rem;
         line-height: 1.4;
     }
 
+    #card-example{
+        display: flex;
+        flex-direction: column;
+    }
+
     .featurette-heading {
         font-size: 50px;
     }
-}
 
-@media (min-width: 62em) {
-    .featurette-heading {
-        margin-top: 7rem;
-    }
-}
-
-@media screen and (max-width: 700px){
     .disclaimer-content{
         display: none;
     }
     .text-login{
         display: none;
+    }
+    #card-example{
+        width: 80%;
+        display: flex;
+        flex-direction: column;
     }
 }

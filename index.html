@@ -127,31 +127,102 @@
         </button>
       </div>
 
-      <section class="container  d-flex flex-row justify-content-between">
+      <section class="container" id="card-example">
         <a href="pages/maculino.html" class="text-dark text-decoration-none item-card d-flex flex-row align-items-center justify-content-center border border-dark p-3 rounded-3">
-          <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 640 512">
+          <svg xmlns="http://www.w3.org/2000/svg" class=" me-3" width="40" height="40" viewBox="0 0 640 512">
             <path d="M211.8 0c7.8 0 14.3 5.7 16.7 13.2C240.8 51.9 277.1 80 320 80s79.2-28.1 91.5-66.8C413.9 5.7 420.4 0 428.2 0h12.6c22.5 0 44.2 7.9 61.5 22.3L628.5 127.4c6.6 5.5 10.7 13.5 11.4 22.1s-2.1 17.1-7.8 23.6l-56 64c-11.4 13.1-31.2 14.6-44.6 3.5L480 197.7V448c0 35.3-28.7 64-64 64H224c-35.3 0-64-28.7-64-64V197.7l-51.5 42.9c-13.3 11.1-33.1 9.6-44.6-3.5l-56-64c-5.7-6.5-8.5-15-7.8-23.6s4.8-16.6 11.4-22.1L137.7 22.3C155 7.9 176.7 0 199.2 0h12.6z"/>
           </svg>
           <h5 class="text-uppercase">A partir de R$10,00</h5>
         </a>
-        <a href="pages/cremes.html" class="item-card d-flex flex-row align-items-center text-dark text-decoration-none border border-dark p-3 rounded-3 ">
-          <span class="material-symbols-outlined me-2 text-center">
+        <a href="pages/maculino.html" class="item-card d-flex flex-row align-items-center text-center text-dark justify-content-center text-decoration-none border border-dark p-3 rounded-3">
+          <span class="material-symbols-outlined text-decoration-none me-3">
             self_care
           </span>
-          <h5 class="text-uppercase text-center">A partir de R$10,00</h5>
+          <h5 class="text-uppercase text-decoration-none">A partir de R$10,00</h5>
         </a>
         <a href="pages/maculino.html" class="item-card d-flex flex-row align-items-center text-dark justify-content-center text-decoration-none border border-dark p-3 rounded-3">
-          <span class="material-symbols-outlined text-decoration-none">
+          <span class="material-symbols-outlined text-decoration-none me-3">
             face_6
           </span>
           <h5 class="text-uppercase text-decoration-none">A partir de R$10,00</h5>
         </a>
         <a href="pages/feminino.html" class="item-card d-flex flex-row text-dark text-decoration-none align-items-center justify-content-center border border-dark p-3 rounded-3">
-          <span class="material-symbols-outlined">
+          <span class="material-symbols-outlined me-3">
             face_3
           </span>
           <h5 class="text-uppercase">A partir de R$10,00</h5>
         </a>
+      </section>
+
+      <section>
+        <div class="container px-4 py-5" id="custom-cards">
+          <h2 class="pb-2 border-bottom">Principais Produtos</h2>
+      
+          <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+            <div class="col">
+              <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('images/gray_background.jpg');">
+                <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1 fw-bold">
+                  <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold text-center">Camisas <br>e<br> Camisetas</h3>
+                  <ul class="d-flex list-unstyled mt-auto">
+                    <li class="me-auto">
+                      <img src="images/camiseta.png" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white">
+                    </li>
+                    <li class="d-flex align-items-center me-3">
+                      <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"/></svg>
+                      <small>A Partir de </small>
+                    </li>
+                    <li class="d-flex align-items-center">
+                      <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"/></svg>
+                      <small>R$ 10,00</small>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+      
+            <div class="col">
+              <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('images/pink_background.jpg');">
+                <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1 fw-bold">
+                  <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold text-center">Vestidos Saias e muito mais</h3>
+                  <ul class="d-flex list-unstyled mt-auto">
+                    <li class="me-auto">
+                      <img src="images/vestido.jpg" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white">
+                    </li>
+                    <li class="d-flex align-items-center me-3">
+                      <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"/></svg>
+                      <small>A Partir de </small>
+                    </li>
+                    <li class="d-flex align-items-center">
+                      <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"/></svg>
+                      <small>R$ 10,00</small>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+      
+            <div class="col">
+              <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('images/blue_background.jpeg')">
+                <div class="d-flex flex-column h-100 p-5 pb-3 text-light fw-bold">
+                  <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold text-center">Calças <br>Jeans e Moletom</h3>
+                  <ul class="d-flex list-unstyled mt-auto">
+                    <li class="me-auto">
+                      <img src="images/calca.jpg" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white">
+                    </li>
+                    <li class="d-flex align-items-center me-3">
+                      <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"/></svg>
+                      <small>A Partir de </small>
+                    </li>
+                    <li class="d-flex align-items-center">
+                      <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"/></svg>
+                      <small>R$ 10,00</small>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
 
     </main>
