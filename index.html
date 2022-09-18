@@ -13,9 +13,8 @@
     <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/album/">
     <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
     <link href="boostrap/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-
-    <script src="scripts/index.js"></script>
-    <script src="boostrap/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles/bootstrap.min.css.map">
+    <link rel="stylesheet" href="styles/owl.carousel.min.css">
   </head>
   <body>
       
@@ -161,7 +160,7 @@
       
           <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
             <div class="col">
-              <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('images/gray_background.jpg');">
+              <a href="pages/maculino.html" class="text-decoration-none card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('images/gray_background.jpg');">
                 <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1 fw-bold">
                   <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold text-center">Camisas <br>e<br> Camisetas</h3>
                   <ul class="d-flex list-unstyled mt-auto">
@@ -178,11 +177,11 @@
                     </li>
                   </ul>
                 </div>
-              </div>
+              </a>
             </div>
       
             <div class="col">
-              <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('images/pink_background.jpg');">
+              <a href="pages/feminino.html" class="text-decoration-none card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('images/pink_background.jpg');">
                 <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1 fw-bold">
                   <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold text-center">Vestidos Saias e muito mais</h3>
                   <ul class="d-flex list-unstyled mt-auto">
@@ -199,11 +198,11 @@
                     </li>
                   </ul>
                 </div>
-              </div>
+              </a>
             </div>
       
             <div class="col">
-              <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('images/blue_background.jpeg')">
+              <a href="pages/feminino.html" class="text-decoration-none card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('images/blue_background.jpeg')">
                 <div class="d-flex flex-column h-100 p-5 pb-3 text-light fw-bold">
                   <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold text-center">Calças <br>Jeans e Moletom</h3>
                   <ul class="d-flex list-unstyled mt-auto">
@@ -220,12 +219,59 @@
                     </li>
                   </ul>
                 </div>
-              </div>
+              </a>
             </div>
           </div>
         </div>
       </section>
+      
+      <section class="">
+        <div class="content">
+    
+          <div class="container">
+            <h2 class="my-5 text-center">Carousel #2</h2>
+          </div>
+      
+      
+          <div class="site-section bg-left-half mb-5 ">
+            <div class="container owl-2-style">
+              
+              <h2 class="text-center">Nossos Produtos</h2>
+              
+      
+              <div class="owl-carousel owl-2 text-decoration-none">
+                <div class="media-29101">
+                  <a href="#"><img src="images/calca.jpg" alt="Image" class="img-fluid"></a>
+                  <h3><a href="#">Calças Jeans Masculinas</a></h3>
+                </div>
+                <div class="media-29101">
+                  <a href="#"><img src="images/calca.jpg" alt="Image" class="img-fluid"></a>
+                  <h3><a href="#">Vesitodos</a></h3>
+                </div>
+                <div class="media-29101">
+                  <a href="#"><img src="images/calca.jpg" alt="Image" class="img-fluid"></a>
+                  <h3><a href="#">Calças Jeans Femininas</a></h3>
+                </div>
+                <div class="media-29101">
+                  <a href="#"><img src="images/calca.jpg" alt="Image" class="img-fluid"></a>
+                  <h3><a href="#">Bermudas</a></h3>
+                </div>
+                <div class="media-29101">
+                  <a href="#"><img src="images/calca.jpg" alt="Image" class="img-fluid"></a>
+                  <h3><a href="#">Saias</a></h3>
+                </div>
+                <div class="media-29101">
+                  <a href="#"><img src="images/calca.jpg" alt="Image" class="img-fluid"></a>
+                  <h3><a href="#">Ternos</a></h3>
+                </div>
 
+              </div>
+      
+            </div>
+          </div>
+      
+        </div>
+      </section>
     </main>
 
 
@@ -343,5 +389,11 @@
         &copy; 2022 WebStore:
       </div>
     </footer>
+
+    <script src="scripts/jquery-3.3.1.min.js"></script>
+    <script src="scripts/popper.min.js"></script>
+    <script src="scripts/bootstrap.min.js"></script>
+    <script src="scripts/owl.carousel.min.js"></script>
+    <script src="scripts/main.js"></script>
   </body>
 </html>
