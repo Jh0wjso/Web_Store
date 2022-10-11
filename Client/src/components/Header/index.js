@@ -6,7 +6,7 @@ import Navbar from "react-bootstrap/esm/Navbar";
 export default function Header(){
     return(
         <div>
-            <Navbar collapseOnSelect expand="lg" bg="#383737" variant="dark" fixed='top'>
+            <Navbar collapseOnSelect expand="lg" bg="#383737" variant="dark">
                 <Container className="d-flex justify-content-between align-items-center">
                     <Navbar.Brand href="App.js">
                     <h1>Stylos</h1>
