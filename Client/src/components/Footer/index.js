@@ -3,20 +3,19 @@ import {
   MDBFooter,
   MDBContainer,
   MDBIcon,
-  MDBInput,
   MDBCol,
   MDBRow,
   MDBBtn,
 } from "mdb-react-ui-kit";
+import "./styles.css"
 
 export default function Footer() {
   return (
-    <MDBFooter className="text-center" color="white" bgColor="dark">
+    <MDBFooter className="text-center" color="gray" bgColor="light">
       <MDBContainer className="p-4">
         <section className="mb-4">
           <MDBBtn
-            outline
-            color="light"
+            color="dark"
             floating
             className="m-1"
             href="#!"
@@ -26,8 +25,7 @@ export default function Footer() {
           </MDBBtn>
 
           <MDBBtn
-            outline
-            color="light"
+            color="dark"
             floating
             className="m-1"
             href="#!"
@@ -37,8 +35,7 @@ export default function Footer() {
           </MDBBtn>
 
           <MDBBtn
-            outline
-            color="light"
+            color="dark"
             floating
             className="m-1"
             href="#!"
@@ -48,8 +45,7 @@ export default function Footer() {
           </MDBBtn>
 
           <MDBBtn
-            outline
-            color="light"
+            color="dark"
             floating
             className="m-1"
             href="#!"
@@ -64,11 +60,11 @@ export default function Footer() {
             <MDBRow className="d-flex justify-content-center flex-column">
               <MDBCol size="auto">
                 <p className="pt-2">
-                  <strong>Alguma sugestao nos envie um e-mail</strong>
+                  <strong className="text-dark">Alguma sugestao nos envie um e-mail</strong>
                 </p>
               </MDBCol>
               <MDBCol size="auto">
-                <MDBBtn outline color="light" type="submit" className="mb-4">
+                <MDBBtn color="dark" href="#!" className="mb-4">
                   Clique Aqui
                 </MDBBtn>
               </MDBCol>
@@ -76,35 +72,37 @@ export default function Footer() {
           </form>
         </section>
 
-        <section className="mb-4 mt-4">
+        <section className="mb-4">
           <p>
             Aqui em baixo desponibilizamos alguns links rapidos para voce, para facilitar sua vida.
           </p>
         </section>
 
-        <section className="">
+        <section className="text-dark">
           <MDBRow>
-            <MDBCol lg="3" md="6" className="mb-4 mb-md-0">
-              <h5 className="text-uppercase">Masculinas</h5>
+            <MDBCol lg="3" md="6" className="mb-4 mb-md-0 text-dark">
+              <h5 className="text-uppercase fw-bold">
+                <strong>Masculinas</strong>
+              </h5>
 
-              <ul className="list-unstyled mb-0">
+              <ul className="list-unstyled mb-0 text-dark">
                 <li>
-                  <a href="#!" className="text-white">
+                  <a href="#!" className="text-dark">
                     Camisas
                   </a>
                 </li>
                 <li>
-                  <a href="#!" className="text-white">
+                  <a href="#!" className="text-dark">
                     Camisetas
                   </a>
                 </li>
                 <li>
-                  <a href="#!" className="text-white">
+                  <a href="#!" className="text-dark">
                     Calças
                   </a>
                 </li>
                 <li>
-                  <a href="#!" className="text-white">
+                  <a href="#!" className="text-dark">
                     Blusas
                   </a>
                 </li>
@@ -112,26 +110,30 @@ export default function Footer() {
             </MDBCol>
 
             <MDBCol lg="3" md="6" className="mb-4 mb-md-0">
-              <h5 className="text-uppercase">Femininas</h5>
+              <h5 className="text-uppercase">
+                <strong>
+                    Femininas
+                </strong>
+              </h5>
 
               <ul className="list-unstyled mb-0">
                 <li>
-                  <a href="#!" className="text-white">
+                  <a href="#!" className="text-dark">
                     Vestidos
                   </a>
                 </li>
                 <li>
-                  <a href="#!" className="text-white">
+                  <a href="#!" className="text-dark">
                     Shorts
                   </a>
                 </li>
                 <li>
-                  <a href="#!" className="text-white">
+                  <a href="#!" className="text-dark">
                     Blusinhas
                   </a>
                 </li>
                 <li>
-                  <a href="#!" className="text-white">
+                  <a href="#!" className="text-dark">
                     Calças
                   </a>
                 </li>
@@ -139,26 +141,30 @@ export default function Footer() {
             </MDBCol>
 
             <MDBCol lg="3" md="6" className="mb-4 mb-md-0">
-              <h5 className="text-uppercase">Cosmeticos</h5>
+              <h5 className="text-uppercase">
+                <strong>
+                    Cosmeticos
+                </strong>
+              </h5>
 
               <ul className="list-unstyled mb-0">
                 <li>
-                  <a href="#!" className="text-white">
+                  <a href="#!" className="text-dark">
                     Masculinos
                   </a>
                 </li>
                 <li>
-                  <a href="#!" className="text-white">
+                  <a href="#!" className="text-dark">
                     Femininos
                   </a>
                 </li>
                 <li>
-                  <a href="#!" className="text-white">
+                  <a href="#!" className="text-dark">
                     Infatis
                   </a>
                 </li>
                 <li>
-                  <a href="#!" className="text-white">
+                  <a href="#!" className="text-dark">
                     Outros
                   </a>
                 </li>
@@ -166,27 +172,29 @@ export default function Footer() {
             </MDBCol>
 
             <MDBCol lg="3" md="6" className="mb-4 mb-md-0">
-              <h5 className="text-uppercase">Contato</h5>
+              <h5 className="text-uppercase">
+                <strong>Contato</strong>
+              </h5>
 
               <ul className="list-unstyled mb-0">
                 <li>
-                  <a href="#!" className="text-white">
+                  <a href="#!" className="text-dark">
                     Whatsapp
                   </a>
                 </li>
                 <li>
-                  <a href="#!" className="text-white">
+                  <a href="#!" className="text-dark">
                     Facebook
                   </a>
                 </li>
                 <li>
-                  <a href="#!" className="text-white">
+                  <a href="#!" className="text-dark">
                     Instagram
                   </a>
                 </li>
                 <li>
-                  <a href="#!" className="text-white">
-                    E-mail
+                  <a href="#!" className="text-dark">
+                    TikTok
                   </a>
                 </li>
               </ul>
@@ -197,10 +205,10 @@ export default function Footer() {
 
       <div
         className="text-center p-3"
-        style={{ backgroundColor: "rgba(0, 0, 0, 0.2)" }}
+        style={{ backgroundColor: "#040404" }}
       >
         © 2022 Copyright:
-        <a className="text-white" href="https://mdbootstrap.com/">
+        <a className="text-white" href="#!">
           NomeLoja
         </a>
       </div>
