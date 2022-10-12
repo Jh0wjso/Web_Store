@@ -13,3 +13,16 @@
     border-color: #1C1C1C;
     border-width: 1px;
 }
+
+.iconSocialMedia{
+    background-color: #FFFFFF;
+}
+.iconSocialMedia:hover{
+    background-color: #262525;
+    transition: 0.5s;
+    color: #FFFFFF;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
