@@ -5,211 +5,141 @@ import {
   MDBIcon,
   MDBCol,
   MDBRow,
-  MDBBtn,
 } from "mdb-react-ui-kit";
 import "./styles.css"
 
 export default function Footer() {
   return (
-    <MDBFooter className="text-center" color="gray" bgColor="light">
-      <MDBContainer className="p-4">
-        <section className="mb-4">
-          <MDBBtn
-            color="dark"
-            floating
-            className="m-1"
-            href="#!"
-            role="button"
-          >
+    <MDBFooter style={{backgroundColor: "#000000"}} className='text-center text-lg-start text-muted'>
+      <section className='d-flex justify-content-center justify-content-lg-between p-4 border-bottom'>
+        <div className='me-5 d-none d-lg-block'>
+          <span>Conecte-se conosco nas redes sociais:</span>
+        </div>
+
+        <div>
+          <a href='#!' className='mx-2 text-reset'>
             <MDBIcon icon="facebook-f" />
-          </MDBBtn>
-
-          <MDBBtn
-            color="dark"
-            floating
-            className="m-1"
-            href="#!"
-            role="button"
-          >
-            <MDBIcon icon="whatsapp" />
-          </MDBBtn>
-
-          <MDBBtn
-            color="dark"
-            floating
-            className="m-1"
-            href="#!"
-            role="button"
-          >
+          </a>
+          <a href='#!' className='mx-2 text-reset'>
+            <MDBIcon icon="twitter" />
+          </a>
+          <a href='' className='mx-2 text-reset'>
             <MDBIcon icon="google" />
-          </MDBBtn>
-
-          <MDBBtn
-            color="dark"
-            floating
-            className="m-1"
-            href="#!"
-            role="button"
-          >
+          </a>
+          <a href='' className='mx-2 text-reset'>
             <MDBIcon icon="instagram" />
-          </MDBBtn>
-        </section>
+          </a>
+          <a href='' className='mx-2 text-reset'>
+            <MDBIcon icon="linkedin" />
+          </a>
+          <a href='' className='mx-2 text-reset'>
+            <MDBIcon icon="github" />
+          </a>
+        </div>
+      </section>
 
-        <section className="">
-          <form action="">
-            <MDBRow className="d-flex justify-content-center flex-column">
-              <MDBCol size="auto">
-                <p className="pt-2">
-                  <strong className="text-dark">Alguma sugestao nos envie um e-mail</strong>
-                </p>
-              </MDBCol>
-              <MDBCol size="auto">
-                <MDBBtn color="dark" href="#!" className="mb-4">
-                  Clique Aqui
-                </MDBBtn>
-              </MDBCol>
-            </MDBRow>
-          </form>
-        </section>
-
-        <section className="mb-4">
-          <p>
-            Aqui em baixo desponibilizamos alguns links rapidos para voce, para facilitar sua vida.
-          </p>
-        </section>
-
-        <section className="text-dark">
-          <MDBRow>
-            <MDBCol lg="3" md="6" className="mb-4 mb-md-0 text-dark">
-              <h5 className="text-uppercase fw-bold">
-                <strong>Masculinas</strong>
-              </h5>
-
-              <ul className="list-unstyled mb-0 text-dark">
-                <li>
-                  <a href="#!" className="text-dark">
-                    Camisas
-                  </a>
-                </li>
-                <li>
-                  <a href="#!" className="text-dark">
-                    Camisetas
-                  </a>
-                </li>
-                <li>
-                  <a href="#!" className="text-dark">
-                    Calças
-                  </a>
-                </li>
-                <li>
-                  <a href="#!" className="text-dark">
-                    Blusas
-                  </a>
-                </li>
-              </ul>
+      <section className=''>
+        <MDBContainer className='text-center text-md-start mt-5'>
+          <MDBRow className='mt-3'>
+            <MDBCol md="3" lg="4" xl="3" className='mx-auto mb-4'>
+              <h6 className='text-uppercase fw-bold mb-4'>
+                <MDBIcon icon="gem" className="me-3" />
+                Nome Loja
+              </h6>
+              <p>
+                Somos uma loja que sempre busca melhor atende-lo e melhor servi-lo.
+              </p>
             </MDBCol>
 
-            <MDBCol lg="3" md="6" className="mb-4 mb-md-0">
-              <h5 className="text-uppercase">
-                <strong>
-                    Femininas
-                </strong>
+            <MDBCol md="2" lg="2" xl="2" className='mx-auto mb-4 text-white'>
+              <h5 className='text-uppercase fw-bold mb-4'>
+                <strong>Masculinos</strong>
               </h5>
-
-              <ul className="list-unstyled mb-0">
-                <li>
-                  <a href="#!" className="text-dark">
-                    Vestidos
-                  </a>
-                </li>
-                <li>
-                  <a href="#!" className="text-dark">
-                    Shorts
-                  </a>
-                </li>
-                <li>
-                  <a href="#!" className="text-dark">
-                    Blusinhas
-                  </a>
-                </li>
-                <li>
-                  <a href="#!" className="text-dark">
-                    Calças
-                  </a>
-                </li>
-              </ul>
+              <p>
+                <a href='#!' className='text-reset text-white-50'>
+                  Camisas
+                </a>
+              </p>
+              <p>
+                <a href='#!' className='text-reset text-white-50'>
+                  Calças
+                </a>
+              </p>
+              <p>
+                <a href='#!' className='text-reset text-white-50'>
+                  Shorts
+                </a>
+              </p>
+              <p>
+                <a href='#!' className='text-reset text-white-50'>
+                  Blusas
+                </a>
+              </p>
+              <p>
+                <a href='#!' className='text-reset text-white-50'>
+                  Outros
+                </a>
+              </p>
+            </MDBCol>
+            <MDBCol md="2" lg="2" xl="2" className='mx-auto mb-4 text-white'>
+              <h5 className='text-uppercase fw-bold mb-4'>
+                <strong>Feminino</strong>
+              </h5>
+              <p>
+                <a href='#!' className='text-reset text-white-50'>
+                  Camisetas
+                </a>
+              </p>
+              <p>
+                <a href='#!' className='text-reset text-white-50'>
+                  Saias
+                </a>
+              </p>
+              <p>
+                <a href='#!' className='text-reset text-white-50'>
+                  Blusas
+                </a>
+              </p>
+              <p>
+                <a href='#!' className='text-reset text-white-50'>
+                  Shorts
+                </a>
+              </p>
+              <p>
+                <a href='#!' className='text-reset text-white-50'>
+                  Outros
+                </a>
+              </p>
             </MDBCol>
 
-            <MDBCol lg="3" md="6" className="mb-4 mb-md-0">
-              <h5 className="text-uppercase">
-                <strong>
-                    Cosmeticos
-                </strong>
-              </h5>
-
-              <ul className="list-unstyled mb-0">
-                <li>
-                  <a href="#!" className="text-dark">
-                    Masculinos
-                  </a>
-                </li>
-                <li>
-                  <a href="#!" className="text-dark">
-                    Femininos
-                  </a>
-                </li>
-                <li>
-                  <a href="#!" className="text-dark">
-                    Infatis
-                  </a>
-                </li>
-                <li>
-                  <a href="#!" className="text-dark">
-                    Outros
-                  </a>
-                </li>
-              </ul>
-            </MDBCol>
-
-            <MDBCol lg="3" md="6" className="mb-4 mb-md-0">
-              <h5 className="text-uppercase">
-                <strong>Contato</strong>
-              </h5>
-
-              <ul className="list-unstyled mb-0">
-                <li>
-                  <a href="#!" className="text-dark">
-                    Whatsapp
-                  </a>
-                </li>
-                <li>
-                  <a href="#!" className="text-dark">
-                    Facebook
-                  </a>
-                </li>
-                <li>
-                  <a href="#!" className="text-dark">
-                    Instagram
-                  </a>
-                </li>
-                <li>
-                  <a href="#!" className="text-dark">
-                    TikTok
-                  </a>
-                </li>
-              </ul>
+            <MDBCol md="4" lg="3" xl="3" className='mx-auto mb-md-0 mb-4'>
+              <h6 className='text-uppercase fw-bold mb-4'>Contact</h6>
+              <p>
+                <MDBIcon icon="home" className="mx-2" />
+                Sao Paulo, Tejupa, BR
+              </p>
+              <p>
+                <MDBIcon icon="envelope" className="mx-2" />
+                Nosso Email 
+                <a href="mailto:daianeaparecida404@gmail.com">
+                  <strong className="text-white text-decoration-none mx-1">Clique Aqui</strong>
+                </a>
+              </p>
+              <p>
+                <MDBIcon icon="phone" className="mx-3" />+55(14) 99807 - 4693
+              </p>
+              <p>
+                <MDBIcon icon="phone" className="mx-3" />+55(14) 99798 - 1721
+              </p>
             </MDBCol>
           </MDBRow>
-        </section>
-      </MDBContainer>
+        </MDBContainer>
+      </section>
 
-      <div
-        className="text-center p-3"
-        style={{ backgroundColor: "#040404" }}
-      >
+      <div className='text-center p-4' style={{ backgroundColor: '#FFFFFF' }}>
         © 2022 Copyright:
-        <a className="text-white" href="#!">
-          NomeLoja
+        <a className='text-dark fw-bold mx-1' href='#'>
+          MDBootstrap.com
         </a>
       </div>
     </MDBFooter>
