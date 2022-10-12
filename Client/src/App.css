@@ -31,14 +31,14 @@ header{
   background-color: #1f1e1e7c;
 }
 
-::-moz-selection { /* Code for Firefox */
-  color: rgba(233, 47, 47, 0.76);
-  background: rgba(26, 26, 25, 0.623);
+::-moz-selection { /*Code For FireFox*/
+  color: rgba(26, 26, 25, 0.623);
+  background: rgba(255, 255, 255, 0.623);
 }
 
 ::selection {
-  color: rgba(233, 47, 47, 0.76);
-  background: rgba(26, 26, 25, 0.623);
+  color: rgba(26, 26, 25, 0.623);
+  background: rgba(255, 255, 255);
 }
 
 @media screen and (max-width: 280px){
