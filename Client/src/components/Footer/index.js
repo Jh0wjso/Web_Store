@@ -10,10 +10,10 @@ import "./styles.css";
 
 export default function Footer() {
   return (
-    <footer style={{ backgroundColor: "#1f1e1e7c" }}>
+    <footer style={{ backgroundColor: "#723ea2" }} className="mt-5">
       <MDBFooter
         style={{ backgroundColor: "transparent" }}
-        className="text-center text-lg-start text-muted container"
+        className="pt-1 text-center text-lg-start text-muted container"
       >
         <section className="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
           <div className="me-5 d-none d-lg-block text-white">
@@ -143,10 +143,10 @@ export default function Footer() {
 
         
       </MDBFooter>
-      <div className="text-center text-dark p-4" style={{ backgroundColor: "#FFFFFF" }}>
+      <div className="text-center text-light p-4" style={{ backgroundColor: "#3C3939" }}>
           © 2022 Copyright:
-          <a className="fw-bold mx-1" href="#">
-            Outrolink.com
+          <a className="fw-bold mx-1 text-white" href="#">
+            <strong>Outrolink.com</strong>
           </a>
         </div>
     </footer>

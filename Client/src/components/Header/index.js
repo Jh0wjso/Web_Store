@@ -5,11 +5,16 @@ import Navbar from "react-bootstrap/esm/Navbar";
 
 export default function Header(){
     return(
-        <div>
-            <Navbar collapseOnSelect expand="lg" bg="#383737" variant="dark">
-                <Container className="d-flex justify-content-between align-items-center">
-                    <Navbar.Brand href="App.js">
-                        <h1>Nome</h1>
+        <div
+            className="d-flex justify-content-start"
+            style={{backgroundColor: "#723ea27c"}}
+        >
+            <Navbar expand="lg" variant="dark">
+                <Container className="d-flex align-items-center">
+                    <Navbar.Brand href="#">
+                        <h1>
+                            <strong>Nome</strong>
+                        </h1>
                     </Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">

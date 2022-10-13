@@ -11,34 +11,40 @@ export default function IndividualIntervalsExample() {
         controls={false} indicators={false}
     >
       <Carousel.Item interval={2000} className="container">
-        <img
-          className="d-block w-100"
-          src={blue}
-          height={300}
-          alt="First slide"
-        />
+        <a>
+          <img
+            className="d-block w-100"
+            src={purple}
+            height={300}
+            alt="First slide"
+          />
+        </a>
         <Carousel.Caption>
           <h3>Produtos Masculinos</h3>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item interval={2000}>
-        <img
-          className="d-block w-100"
-          src={gray}
-          height={300}
-          alt="First slide"
-        />
+        <a>
+          <img
+            className="d-block w-100"
+            src={purple}
+            height={300}
+            alt="First slide"
+          />
+        </a>
         <Carousel.Caption>
             <h3>Produtos Femininos</h3>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item interval={2000}>
-        <img
-          className="d-block w-100"
-          src={purple}
-          height={300}
-          alt="First slide"
-        />
+        <a>
+          <img
+            className="d-block w-100"
+            src={purple}
+            height={300}
+            alt="First slide"
+          />
+        </a>
         <Carousel.Caption>
             <h3>Produtos de Beleza</h3>
         </Carousel.Caption>
