@@ -10,9 +10,9 @@ import "./styles.css";
 
 export default function Footer() {
   return (
-    <footer style={{ backgroundColor: "#000000" }}>
+    <footer style={{ backgroundColor: "#1f1e1e7c" }}>
       <MDBFooter
-        style={{ backgroundColor: "#000000" }}
+        style={{ backgroundColor: "transparent" }}
         className="text-center text-lg-start text-muted container"
       >
         <section className="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
