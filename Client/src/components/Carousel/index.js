@@ -10,7 +10,7 @@ export default function IndividualIntervalsExample() {
     <Carousel className="container"
         controls={false} indicators={false}
     >
-      <Carousel.Item interval={2000} className="container">
+      <Carousel.Item interval={2000}>
         <a>
           <img
             className="d-block w-100"

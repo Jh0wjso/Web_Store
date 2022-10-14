@@ -2,15 +2,16 @@ import React from "react";
 import Container from "react-bootstrap/esm/Container";
 import Nav from "react-bootstrap/esm/Nav";
 import Navbar from "react-bootstrap/esm/Navbar";
+import "./styles.css"
 
 export default function Header(){
     return(
         <div
-            className="d-flex justify-content-start"
+            className="content-header d-flex justify-content-start"
             style={{backgroundColor: "#723ea2"}}
         >
             <Navbar expand="lg" variant="dark">
-                <Container className="d-flex align-items-center">
+                <Container className="d-flex flex-row align-items-center justify-content-between">
                     <Navbar.Brand href="#">
                         <h1>
                             <strong>Nome</strong>
