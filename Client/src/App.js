@@ -7,7 +7,9 @@ import Footer from './components/Footer';
 
 function App() {
   return (
-    <div className="MainContent h-100 d-flex flex-column">
+    <div className="MainContent h-100 d-flex flex-column"
+      style={{backgroundColor: "#3C3939"}}
+    >
       <div className='w-screen'>
         <Header />
       </div>

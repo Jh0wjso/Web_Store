@@ -143,7 +143,7 @@ export default function Footer() {
 
         
       </MDBFooter>
-      <div className="text-center text-light p-4" style={{ backgroundColor: "#3C3939" }}>
+      <div className="text-center text-light p-4" style={{ backgroundColor: "#723ea2" }}>
           © 2022 Copyright:
           <a className="fw-bold mx-1 text-white" href="#">
             <strong>Outrolink.com</strong>
