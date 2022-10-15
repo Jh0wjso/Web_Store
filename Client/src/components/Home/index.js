@@ -5,7 +5,7 @@ import { MDBIcon } from "mdb-react-ui-kit";
 
 export default function Home() {
   return (
-    <section className="homeContent mt-5 border-bottom d-flex flex-column justify-content-between">
+    <section className="homeContent mt-5 d-flex flex-column justify-content-between">
       <section className="text-center">
         <h1 className="font-weight-bold">
           Nome da Loja

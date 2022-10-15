@@ -10,7 +10,7 @@ import "./styles.css";
 
 export default function Footer() {
   return (
-    <footer style={{ backgroundColor: "#723ea2" }} className="mt-5">
+    <footer style={{ backgroundColor: "#723ea2" }}>
       <MDBFooter
         style={{ backgroundColor: "transparent" }}
         className="pt-1 text-center text-lg-start text-muted container"
