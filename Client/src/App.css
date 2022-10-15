@@ -27,6 +27,16 @@
   
 }
 
+.home_Content_Background{
+  flex: 1;
+  background-image: url("./assets/Home/nycity.jpg");
+  background-attachment: fixed;
+}
+
+.home_Content{
+  background-image: linear-gradient(170deg, #723ea27c, #eb1b3d7c);
+}
+
 header{
   background-color: #1f1e1e7c;
 }

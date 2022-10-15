@@ -8,7 +8,6 @@ export default function Header(){
     return(
         <div
             className="content-header d-flex justify-content-start"
-            style={{backgroundColor: "#723ea2"}}
         >
             <Navbar expand="lg" variant="dark">
                 <Container className="d-flex flex-row align-items-center justify-content-between">

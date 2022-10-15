@@ -10,11 +10,11 @@ function App() {
     <div className="MainContent h-100 d-flex flex-column"
       style={{backgroundColor: "#3C3939"}}
     >
-      <div className='w-screen'>
-        <Header />
-      </div>
-      <div>
-        <Home />
+      <div className='home_Content_Background'>
+        <section className='home_Content'>
+          <Header />
+          <Home />
+        </section>
       </div>
       <Footer />  
     </div>

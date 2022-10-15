@@ -1,8 +1,6 @@
 import React from "react";
 import "./styles.css";
 import Carousel from 'react-bootstrap/Carousel';
-import blue from "../../assets/Home/blue_background.jpeg";
-import gray from "../../assets/Home/gray_background.jpg";
 import purple from "../../assets/Home/purple_background.jpg";
 
 export default function IndividualIntervalsExample() {
@@ -13,7 +11,7 @@ export default function IndividualIntervalsExample() {
       <Carousel.Item interval={2000}>
         <a>
           <img
-            className="d-block w-100"
+            className="d-block w-100 rounded"
             src={purple}
             height={300}
             alt="First slide"
@@ -26,7 +24,7 @@ export default function IndividualIntervalsExample() {
       <Carousel.Item interval={2000}>
         <a>
           <img
-            className="d-block w-100"
+            className="d-block w-100 rounded"
             src={purple}
             height={300}
             alt="First slide"
@@ -39,7 +37,7 @@ export default function IndividualIntervalsExample() {
       <Carousel.Item interval={2000}>
         <a>
           <img
-            className="d-block w-100"
+            className="d-block w-100 rounded"
             src={purple}
             height={300}
             alt="First slide"
