@@ -1,28 +1,28 @@
-#navbar-copy{
-    background-color: #040404;
+#navbar-copy {
+  background-color: #040404;
 }
 
-#btnSocialMedia{
-    background-color: #1C1C1C;
-    border-color: #1C1C1C;
-    border-width: 1px;
+#btnSocialMedia {
+  background-color: #1c1c1c;
+  border-color: #1c1c1c;
+  border-width: 1px;
 }
-#btnSocialMedia:hover{
-    background-color: #FFFFFF;
-    color: #000000;
-    border-color: #1C1C1C;
-    border-width: 1px;
+#btnSocialMedia:hover {
+  background-color: #ffffff;
+  color: #000000;
+  border-color: #1c1c1c;
+  border-width: 1px;
 }
 
-.iconSocialMedia{
-    background-color: #FFFFFF;
+.iconSocialMedia {
+  background-color: #ffffff;
 }
-.iconSocialMedia:hover{
-    background-color: #262525;
-    transition: 0.5s;
-    color: #FFFFFF;
-    -webkit-transition: 0.5s;
-    -moz-transition: 0.5s;
-    -ms-transition: 0.5s;
-    -o-transition: 0.5s;
+.iconSocialMedia:hover {
+  background-color: #262525;
+  transition: 0.5s;
+  color: #ffffff;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
 }

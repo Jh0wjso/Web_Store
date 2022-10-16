@@ -1,17 +1,17 @@
-.maincontent{
+.maincontent {
   padding-left: 100px;
   padding-right: 100px;
 }
 
-.homeContent{
+.homeContent {
   padding-bottom: 60vh;
 }
 
-.textStore{
+.textStore {
   margin-right: 100px;
 }
 
-.imgStore{
+.imgStore {
   transition: 1s;
   border-radius: 20%;
   -webkit-border-radius: 20%;
@@ -23,7 +23,7 @@
   -ms-transition: 1s;
   -o-transition: 1s;
 }
-.imgStore:hover{
+.imgStore:hover {
   transition: 1s;
   border-radius: 15%;
   -webkit-border-radius: 15%;
@@ -36,34 +36,31 @@
   -o-transition: 1s;
 }
 
-@media screen and (max-width: 800px){
-
-  .imgStore{
-      display: none;
+@media screen and (max-width: 800px) {
+  .imgStore {
+    display: none;
   }
 
-  .maincontent{
+  .maincontent {
     padding-left: 100px;
     padding-right: 100px;
   }
 
-  .textStore{
+  .textStore {
     margin-right: 0px;
   }
-  
 }
-@media screen and (max-width: 500px){
-
-  .imgStore{
-      display: none;
+@media screen and (max-width: 500px) {
+  .imgStore {
+    display: none;
   }
 
-  .maincontent{
+  .maincontent {
     padding-left: 50px;
     padding-right: 50px;
   }
 
-  .textStore{
+  .textStore {
     margin-right: 0px;
   }
 }
