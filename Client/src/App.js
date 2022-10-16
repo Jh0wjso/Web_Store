@@ -5,6 +5,7 @@ import Header from './components/Header';
 import Home from './components/Home';
 import Footer from './components/Footer';
 import Feminino from './components/Feminino';
+import Male from './components/Male';
 
 function App() {
   return (
@@ -17,6 +18,9 @@ function App() {
       </section>
       <div className="products" id='feminino'>
         <Feminino />
+      </div>
+      <div className="productsMan" id='man'>
+        <Male />
       </div>
       <Footer />  
     </div>

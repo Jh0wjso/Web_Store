@@ -42,6 +42,11 @@ header{
   height: 70vh;
 }
 
+.productsMan{
+  background-image: linear-gradient(#723ea27c, #eb1b3d7c);
+  height: 70vh;
+}
+
 ::-moz-selection { /*Code For FireFox*/
   color: rgba(26, 26, 25, 0.623);
   background: rgba(255, 255, 255, 0.623);
