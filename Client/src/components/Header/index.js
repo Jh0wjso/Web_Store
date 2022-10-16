@@ -19,11 +19,11 @@ export default function Header(){
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="me-auto">
-                        <Nav.Link href="#">Feminino</Nav.Link>
-                        <Nav.Link href="#">Masculino</Nav.Link>
+                        <Nav.Link href="#feminino">Feminino</Nav.Link>
+                        <Nav.Link href="#home">Masculino</Nav.Link>
                         <Nav.Link href="#">Beleza</Nav.Link>
-                        <Nav.Link href="#">Contato</Nav.Link>
                         <Nav.Link href="#">Sobre</Nav.Link>
+                        <Nav.Link href="#">Contato</Nav.Link>
                     </Nav>
                     </Navbar.Collapse>
                 </Container>

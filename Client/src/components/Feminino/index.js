@@ -7,7 +7,7 @@ export default function Feminino() {
   return (
     <div className="container">
         <h2
-            className="mb-3"
+            className="mb-3 text-center"
         >
             Roupas Femininas
         </h2>
@@ -17,43 +17,79 @@ export default function Feminino() {
             <img
               width="100%"
               src="https://picsum.photos/800/600?random=1"
-              className="rounded"
+              className="img-product"
             />
+            <a 
+                href=""
+                className="btn-interesse border-0 w-100 d-flex justify-content-center p-2 text-white text-decoration-none"
+            >
+                Me interesso
+            </a>
           </Carousel.Item>
           <Carousel.Item>
             <img
               width="100%"
               src="https://picsum.photos/800/600?random=2"
-              className="rounded"
+              className="img-product"
             />
+            <a 
+                href=""
+                className="btn-interesse border-0 w-100 d-flex justify-content-center p-2 text-white text-decoration-none"
+            >
+                Me interesso
+            </a>
           </Carousel.Item>
           <Carousel.Item>
             <img
               width="100%"
-              src="https://picsum.photos/800/600?random=1"
-              className="rounded"
+              src="https://picsum.photos/800/600?random=3"
+              className="img-product"
             />
+            <a 
+                href=""
+                className="btn-interesse border-0 w-100 d-flex justify-content-center p-2 text-white text-decoration-none"
+            >
+                Me interesso
+            </a>
           </Carousel.Item>
           <Carousel.Item>
             <img
               width="100%"
-              src="https://picsum.photos/800/600?random=2"
-              className="rounded"
+              src="https://picsum.photos/800/600?random=4"
+              className="img-product"
             />
+            <a 
+                href=""
+                className="btn-interesse border-0 w-100 d-flex justify-content-center p-2 text-white text-decoration-none"
+            >
+                Me interesso
+            </a>
           </Carousel.Item>
           <Carousel.Item>
             <img
               width="100%"
-              src="https://picsum.photos/800/600?random=1"
-              className="rounded"
+              src="https://picsum.photos/800/600?random=5"
+              className="img-product"
             />
+            <a 
+                href=""
+                className="btn-interesse border-0 w-100 d-flex justify-content-center p-2 text-white text-decoration-none"
+            >
+                Me interesso
+            </a>
           </Carousel.Item>
           <Carousel.Item>
             <img
               width="100%"
-              src="https://picsum.photos/800/600?random=2"
-              className="rounded"
+              src="https://picsum.photos/800/600?random=6"
+              className="img-product"
             />
+            <a 
+                href=""
+                className="btn-interesse border-0 w-100 d-flex justify-content-center p-2 text-white text-decoration-none"
+            >
+                Me interesso
+            </a>
           </Carousel.Item>
         </Carousel>
       </section>
