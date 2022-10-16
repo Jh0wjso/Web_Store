@@ -22,16 +22,22 @@ export default function Footer() {
 
           <div>
             <a href="#!" className="mx-2 text-reset">
-              <MDBIcon icon="facebook-f" className="iconSocialMedia rounded p-2"/>
+              <MDBIcon
+                icon="facebook-f"
+                className="iconSocialMedia rounded p-2"
+              />
             </a>
             <a href="#!" className="mx-2 text-reset">
-              <MDBIcon icon="twitter" className="iconSocialMedia rounded p-2"/>
+              <MDBIcon icon="twitter" className="iconSocialMedia rounded p-2" />
             </a>
             <a href="" className="mx-2 text-reset">
-              <MDBIcon icon="google" className="iconSocialMedia rounded p-2"/>
+              <MDBIcon icon="google" className="iconSocialMedia rounded p-2" />
             </a>
             <a href="" className="mx-2 text-reset">
-              <MDBIcon icon="instagram" className="iconSocialMedia rounded p-2"/>
+              <MDBIcon
+                icon="instagram"
+                className="iconSocialMedia rounded p-2"
+              />
             </a>
           </div>
         </section>
@@ -140,15 +146,16 @@ export default function Footer() {
             </MDBRow>
           </MDBContainer>
         </section>
-
-        
       </MDBFooter>
-      <div className="text-center text-light p-4" style={{ backgroundColor: "#723ea2" }}>
-          © 2022 Copyright:
-          <a className="fw-bold mx-1 text-white" href="#">
-            <strong>Outrolink.com</strong>
-          </a>
-        </div>
+      <div
+        className="text-center text-light p-4"
+        style={{ backgroundColor: "#723ea2" }}
+      >
+        © 2022 Copyright:
+        <a className="fw-bold mx-1 text-white" href="#">
+          <strong>Outrolink.com</strong>
+        </a>
+      </div>
     </footer>
   );
 }

@@ -6,11 +6,7 @@ import Carousel from "better-react-carousel";
 export default function Feminino() {
   return (
     <div className="container">
-        <h2
-            className="mb-3 text-center"
-        >
-            Roupas Femininas
-        </h2>
+      <h2 className="mb-3 text-center">Roupas Femininas</h2>
       <section>
         <Carousel cols={3} rows={1} gap={10} loop>
           <Carousel.Item>
@@ -19,11 +15,11 @@ export default function Feminino() {
               src="https://picsum.photos/800/600?random=1"
               className="img-product"
             />
-            <a 
-                href=""
-                className="btn-interesse border-0 w-100 d-flex justify-content-center p-2 text-white text-decoration-none"
+            <a
+              href=""
+              className="btn-interesse border-0 w-100 d-flex justify-content-center p-2 text-white text-decoration-none"
             >
-                Me interesso
+              Me interesso
             </a>
           </Carousel.Item>
           <Carousel.Item>
@@ -32,11 +28,11 @@ export default function Feminino() {
               src="https://picsum.photos/800/600?random=2"
               className="img-product"
             />
-            <a 
-                href=""
-                className="btn-interesse border-0 w-100 d-flex justify-content-center p-2 text-white text-decoration-none"
+            <a
+              href=""
+              className="btn-interesse border-0 w-100 d-flex justify-content-center p-2 text-white text-decoration-none"
             >
-                Me interesso
+              Me interesso
             </a>
           </Carousel.Item>
           <Carousel.Item>
@@ -45,11 +41,11 @@ export default function Feminino() {
               src="https://picsum.photos/800/600?random=3"
               className="img-product"
             />
-            <a 
-                href=""
-                className="btn-interesse border-0 w-100 d-flex justify-content-center p-2 text-white text-decoration-none"
+            <a
+              href=""
+              className="btn-interesse border-0 w-100 d-flex justify-content-center p-2 text-white text-decoration-none"
             >
-                Me interesso
+              Me interesso
             </a>
           </Carousel.Item>
           <Carousel.Item>
@@ -58,11 +54,11 @@ export default function Feminino() {
               src="https://picsum.photos/800/600?random=4"
               className="img-product"
             />
-            <a 
-                href=""
-                className="btn-interesse border-0 w-100 d-flex justify-content-center p-2 text-white text-decoration-none"
+            <a
+              href=""
+              className="btn-interesse border-0 w-100 d-flex justify-content-center p-2 text-white text-decoration-none"
             >
-                Me interesso
+              Me interesso
             </a>
           </Carousel.Item>
           <Carousel.Item>
@@ -71,11 +67,11 @@ export default function Feminino() {
               src="https://picsum.photos/800/600?random=5"
               className="img-product"
             />
-            <a 
-                href=""
-                className="btn-interesse border-0 w-100 d-flex justify-content-center p-2 text-white text-decoration-none"
+            <a
+              href=""
+              className="btn-interesse border-0 w-100 d-flex justify-content-center p-2 text-white text-decoration-none"
             >
-                Me interesso
+              Me interesso
             </a>
           </Carousel.Item>
           <Carousel.Item>
@@ -84,11 +80,11 @@ export default function Feminino() {
               src="https://picsum.photos/800/600?random=6"
               className="img-product"
             />
-            <a 
-                href=""
-                className="btn-interesse border-0 w-100 d-flex justify-content-center p-2 text-white text-decoration-none"
+            <a
+              href=""
+              className="btn-interesse border-0 w-100 d-flex justify-content-center p-2 text-white text-decoration-none"
             >
-                Me interesso
+              Me interesso
             </a>
           </Carousel.Item>
         </Carousel>
