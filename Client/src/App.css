@@ -39,12 +39,12 @@ header {
 
 .products {
   background-image: linear-gradient(#eb1b3d7c, #723ea27c);
-  height: 70vh;
+  height: 50vh;
 }
 
-.productsMan {
+.productsSecond {
   background-image: linear-gradient(#723ea27c, #eb1b3d7c);
-  height: 70vh;
+  height: 50vh;
 }
 
 ::-moz-selection {
@@ -60,9 +60,25 @@ header {
 
 @media screen and (max-width: 280px) {
   .MainContent {
-    background-image: url();
     margin: 0%;
     flex: 1;
     width: 100%;
+    background-position: 20%;
+  }
+}
+@media screen and (max-width: 400px) {
+  .MainContent {
+    margin: 0%;
+    flex: 1;
+    width: 100%;
+    background-position: 20%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .MainContent {
+    margin: 0%;
+    flex: 1;
+    width: 100%;
+    background-position: 14%;
   }
 }

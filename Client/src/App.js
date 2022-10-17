@@ -6,6 +6,7 @@ import Home from "./components/Home";
 import Footer from "./components/Footer";
 import Feminino from "./components/Feminino";
 import Male from "./components/Male";
+import Beauty from "./components/Beauty";
 
 function App() {
   return (
@@ -20,8 +21,11 @@ function App() {
       <div className="products" id="feminino">
         <Feminino />
       </div>
-      <div className="productsMan" id="man">
+      <div className="productsSecond" id="man">
         <Male />
+      </div>
+      <div className="products" id="beauty">
+        <Beauty />
       </div>
       <Footer />
     </div>

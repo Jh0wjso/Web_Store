@@ -19,7 +19,7 @@ export default function Header() {
             <Nav className="me-auto">
               <Nav.Link href="#feminino">Feminino</Nav.Link>
               <Nav.Link href="#man">Masculino</Nav.Link>
-              <Nav.Link href="#">Beleza</Nav.Link>
+              <Nav.Link href="#beauty">Beleza</Nav.Link>
               <Nav.Link href="#">Sobre</Nav.Link>
               <Nav.Link href="#">Contato</Nav.Link>
             </Nav>
