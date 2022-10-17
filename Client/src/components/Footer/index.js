@@ -123,7 +123,7 @@ export default function Footer() {
                 </h5>
                 <p>
                   <MDBIcon icon="home" className="mx-2" />
-                  Sao Paulo, Tejupa, BR
+                  Sao Paulo, Cidade, BR
                 </p>
                 <p>
                   <MDBIcon icon="envelope" className="mx-2" />
@@ -136,11 +136,11 @@ export default function Footer() {
                 </p>
                 <p>
                   <MDBIcon icon="phone" className="mx-3" />
-                  +55(14) 99807 - 4693
+                  +55(XX) XXXXX - XXXX
                 </p>
                 <p>
                   <MDBIcon icon="phone" className="mx-3" />
-                  +55(14) 99798 - 1721
+                  +55(YY) YYYYY - YYYY
                 </p>
               </MDBCol>
             </MDBRow>
