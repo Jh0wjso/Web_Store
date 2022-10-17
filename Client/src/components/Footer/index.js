@@ -10,7 +10,7 @@ import "./styles.css";
 
 export default function Footer() {
   return (
-    <footer style={{ backgroundColor: "#723ea2" }}>
+    <footer className="footer-bg" >
       <MDBFooter
         style={{ backgroundColor: "transparent" }}
         className="pt-1 text-center text-lg-start text-muted container"
@@ -21,7 +21,7 @@ export default function Footer() {
           </div>
 
           <div>
-            <a href="#!" className="mx-2 text-reset">
+            <a href="#!" className="btnSocialMedia mx-2 text-reset">
               <MDBIcon
                 icon="facebook-f"
                 className="iconSocialMedia rounded p-2"
@@ -148,8 +148,7 @@ export default function Footer() {
         </section>
       </MDBFooter>
       <div
-        className="text-center text-light p-4"
-        style={{ backgroundColor: "#723ea2" }}
+        className="text-center text-light p-4 copy-bg"
       >
         © 2022 Copyright:
         <a className="fw-bold mx-1 text-white" href="#">
