@@ -3,7 +3,7 @@ import "./styles.css";
 
 import Carousel from "better-react-carousel";
 
-export default function Feminino() {
+export default function Female() {
   return (
     <div className="container">
       <h2 className="mb-3 text-center">Roupas Femininas</h2>
