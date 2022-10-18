@@ -1,5 +1,5 @@
 .footer-bg{
-  background-image: linear-gradient(#eb1b3d, #723ea2);
+  background-image: linear-gradient(#723ea2, #eb1b3d);
 }
 
 #navbar-copy {
@@ -12,14 +12,14 @@
   border-width: 1px;
 }
 .btnSocialMedia:hover {
-  background-color: #723ea2;
-  color: #eb1b3d;
+  background-color: #eb1b3d;
+  color: #723ea2;
   border-color: #1c1c1c;
   border-width: 1px;
 }
 
 .iconSocialMedia {
-  background-color: #723ea2;
+  background-color: #eb1b3d;
   color: #ffffff;
   transition: 0.5s;
   -webkit-transition: 0.5s;
@@ -35,8 +35,4 @@
   -moz-transition: 0.5s;
   -ms-transition: 0.5s;
   -o-transition: 0.5s;
-}
-
-.copy-bg{
-  background-image: linear-gradient(#723ea2);
 }

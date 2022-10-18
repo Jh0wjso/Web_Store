@@ -51,8 +51,7 @@ export default function Footer() {
                   <strong>Nome Loja</strong>
                 </h2>
                 <p>
-                  Somos uma loja que sempre busca melhor atende-lo e melhor
-                  servi-lo.
+                  Somos uma loja que sempre busca melhor atende-lo e melhor servi-lo.
                 </p>
               </MDBCol>
 
@@ -128,14 +127,14 @@ export default function Footer() {
                 <p>
                   <MDBIcon icon="envelope" className="mx-2" />
                   Nosso Email
-                  <a href="mailto:daianeaparecida404@gmail.com">
+                  <a href="mailto:jhonatansilverio1258@gmail.com">
                     <strong className="text-white text-decoration-none mx-1 fw-bold">
                       Clique Aqui
                     </strong>
                   </a>
                 </p>
                 <p>
-                  <MDBIcon icon="phone" className="mx-3" />
+                  <MDBIcon icon="mobile" className="mx-3" />
                   +55(XX) XXXXX - XXXX
                 </p>
                 <p>
@@ -150,7 +149,7 @@ export default function Footer() {
       <div
         className="text-center text-light p-4 copy-bg"
       >
-        © 2022 Copyright:
+        © 2022 Copyright:eb1b3d
         <a className="fw-bold mx-1 text-white" href="#">
           <strong>Outrolink.com</strong>
         </a>
