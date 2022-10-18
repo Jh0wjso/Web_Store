@@ -5,7 +5,7 @@ import Carousel from "better-react-carousel";
 
 export default function Female() {
   return (
-    <div className="container">
+    <div className="container mb-5">
       <h2 className="mb-3 text-center">Roupas Femininas</h2>
       <section>
         <Carousel cols={3} rows={1} gap={10} loop>
