@@ -7,6 +7,7 @@ import Footer from "./components/Footer";
 import Female from "./components/Female";
 import Male from "./components/Male";
 import Beauty from "./components/Beauty";
+import About from "./components/About";
 
 function App() {
   return (
@@ -26,6 +27,9 @@ function App() {
       </div>
       <div className="products" id="beauty">
         <Beauty />
+      </div>
+      <div className="productsSecond" id="about">
+        <About />
       </div>
       <Footer />
     </div>

@@ -37,12 +37,12 @@ header {
 
 .products {
   background-image: linear-gradient(#eb1b3d7c, #723ea27c);
-  height: 50vh;
+  height: auto;
 }
 
 .productsSecond {
   background-image: linear-gradient(#723ea27c, #eb1b3d7c);
-  height: 50vh;
+  height: auto;
 }
 
 ::-moz-selection {

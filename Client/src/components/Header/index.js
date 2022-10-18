@@ -26,7 +26,7 @@ export default function Header() {
             <Nav.Link href="#feminino">Feminino</Nav.Link>
             <Nav.Link href="#man">Masculino</Nav.Link>
             <Nav.Link href="#beauty">Beleza</Nav.Link>
-            <Nav.Link href="#">Sobre</Nav.Link>
+            <Nav.Link href="#about">Sobre</Nav.Link>
             <Nav.Link href="#">Contato</Nav.Link>
           </Nav>
         </Navbar.Collapse>

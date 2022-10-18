@@ -1,0 +1,28 @@
+.content-left{
+    background-color: #723ea2;
+    width: 24.5%;
+}
+
+.content-right{
+    background-color: #eb1b3d;
+    width: 74.5%;
+}
+
+.mobileText{
+    display: none;
+}
+
+@media screen and (max-width: 800px){
+    .pcText{
+        display: none;
+    }
+    .mobileText{
+        display: contents;
+    }
+    .content-left{
+        display: none;
+    }
+    .content-right{
+        width: 100%;
+    }
+}
