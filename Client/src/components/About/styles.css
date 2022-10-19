@@ -1,6 +1,9 @@
 .content-left{
     background-color: #723ea2;
     width: 24.5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .content-right{
