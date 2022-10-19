@@ -36,6 +36,12 @@
   -o-transition: 1s;
 }
 
+.number_location{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
 @media screen and (max-width: 800px) {
   .imgStore {
     display: none;
@@ -62,5 +68,29 @@
 
   .textStore {
     margin-right: 0px;
+  }
+}
+@media screen and (max-width: 300px) {
+  .imgStore {
+    display: none;
+  }
+
+  .maincontent {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .textStore {
+    margin-right: 0px;
+  }
+  .divider{
+    display: none;
+  }
+  .number_location{
+    display: flex;
+    flex-direction: column;
+  }
+  .contentStore{
+    padding: 5px;
   }
 }

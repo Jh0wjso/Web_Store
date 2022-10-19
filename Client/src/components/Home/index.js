@@ -6,9 +6,9 @@ import { MDBIcon } from "mdb-react-ui-kit";
 export default function Home() {
   return (
     <section className="homeContent mt-5 d-flex flex-column justify-content-between">
-      <section className="text-center">
+      <section className="text-center contentStore">
         <h1 className="font-weight-bold">Nome da Loja</h1>
-        <div className="d-flex flex-row text-center justify-content-center">
+        <div className="number_location text-center">
           <div className="text-center mr-3">
             <MDBIcon icon="phone" className="mr-1" />
             <span>(XX) XXXXX-XXXX</span>
