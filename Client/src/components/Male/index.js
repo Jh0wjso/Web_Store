@@ -3,6 +3,14 @@ import "./styles.css";
 
 import Carousel from "better-react-carousel";
 
+import Jeans from "../../assets/Man/jeansMasculinos.jpeg";
+import Moletom from "../../assets/Man/moletom.png";
+import Shorts from "../../assets/Man/shorts.jpg";
+import Camisetas from "../../assets/Man/camisetas.jpg";
+import CamisetasTime from "../../assets/Man/time.jpg";
+import Camisas from "../../assets/Man/camisasMasculinas.jpg";
+
+
 export default function Male() {
   return (
     <div className="container mb-5">
@@ -12,7 +20,7 @@ export default function Male() {
           <Carousel.Item>
             <img
               width="100%"
-              src="https://picsum.photos/800/600?random=1"
+              src={Jeans}
               className="img-product"
             />
             <a
@@ -25,7 +33,7 @@ export default function Male() {
           <Carousel.Item>
             <img
               width="100%"
-              src="https://picsum.photos/800/600?random=2"
+              src={Moletom}
               className="img-product"
             />
             <a
@@ -38,7 +46,7 @@ export default function Male() {
           <Carousel.Item>
             <img
               width="100%"
-              src="https://picsum.photos/800/600?random=3"
+              src={Shorts}
               className="img-product"
             />
             <a
@@ -51,7 +59,7 @@ export default function Male() {
           <Carousel.Item>
             <img
               width="100%"
-              src="https://picsum.photos/800/600?random=4"
+              src={Camisetas}
               className="img-product"
             />
             <a
@@ -64,7 +72,7 @@ export default function Male() {
           <Carousel.Item>
             <img
               width="100%"
-              src="https://picsum.photos/800/600?random=5"
+              src={CamisetasTime}
               className="img-product"
             />
             <a
@@ -77,7 +85,7 @@ export default function Male() {
           <Carousel.Item>
             <img
               width="100%"
-              src="https://picsum.photos/800/600?random=6"
+              src={Camisas}
               className="img-product"
             />
             <a
@@ -89,6 +97,13 @@ export default function Male() {
           </Carousel.Item>
         </Carousel>
       </section>
+      <div
+          className="d-flex justify-content-end"
+        >
+          <strong>
+            Produtos meramente ilustrativos.
+          </strong>
+        </div>
     </div>
   );
 }
