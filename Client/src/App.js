@@ -8,6 +8,7 @@ import Female from "./components/Female";
 import Male from "./components/Male";
 import Beauty from "./components/Beauty";
 import About from "./components/About";
+import SocialMedias from "./components/SocialMedias";
 
 function App() {
   return (
@@ -30,6 +31,9 @@ function App() {
       </div>
       <div className="productsSecond" id="about">
         <About />
+      </div>
+      <div className="products" id="contact">
+        <SocialMedias />
       </div>
       <Footer />
     </div>

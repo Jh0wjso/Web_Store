@@ -1,0 +1,8 @@
+.content{
+    box-sizing: border-box;
+    background-image: linear-gradient(#723ea27c, #eb1b3d7c);
+}
+
+.iconLink:hover{
+    cursor: pointer;
+}
