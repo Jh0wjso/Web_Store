@@ -4,14 +4,15 @@ import "./styles.css";
 export default function About()
 {
     return(
-        <div className="d-flex flex-row justify-content-between container mb-5">
-            <section className="content-left rounded justify-content-between p-5">
+        <div className="fw-bold d-flex flex-row justify-content-between container mb-5">
+            <section className="content-left justify-content-between p-5">
                 <h1 className="text-center">Nome Loja</h1>
                 <span className="text-center">
                     Conheça mais sobre a nosso loja.
                 </span>
             </section>
-            <section className="content-right p-5 rounded">
+            <div className="border-right borda" />
+            <section className="content-right p-5"> 
                 <h1 className="text-center" >Sobre Nos</h1>
                 <div className="container">
                     <p  className="pcText text-justify">
