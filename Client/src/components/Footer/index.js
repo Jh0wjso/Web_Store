@@ -48,7 +48,7 @@ export default function Footer() {
               <MDBCol md="3" lg="4" xl="3" className="mx-auto mb-4">
                 <h2 className="text-uppercase fw-bold mb-4">
                   <MDBIcon icon="gem" className="me-3" />
-                  <strong>Nome Loja</strong>
+                  <strong>Stylos Brecho</strong>
                 </h2>
                 <p>
                   Somos uma loja que sempre busca melhor atende-lo e melhor servi-lo.
@@ -122,7 +122,7 @@ export default function Footer() {
                 </h5>
                 <p>
                   <MDBIcon icon="home" className="mx-2" />
-                  Sao Paulo, Cidade, BR
+                  Tejupa, SP, BR
                 </p>
                 <p>
                   <MDBIcon icon="envelope" className="mx-2" />
@@ -135,11 +135,11 @@ export default function Footer() {
                 </p>
                 <p>
                   <MDBIcon icon="mobile" className="mx-3" />
-                  +55(XX) XXXXX - XXXX
+                  +55(14) 99798 - 1721
                 </p>
                 <p>
                   <MDBIcon icon="phone" className="mx-3" />
-                  +55(YY) YYYYY - YYYY
+                  +55(14) 99807 - 4693
                 </p>
               </MDBCol>
             </MDBRow>
@@ -149,7 +149,7 @@ export default function Footer() {
       <div
         className="text-center text-light p-4 copy-bg"
       >
-        © 2022 Copyright:eb1b3d
+        © 2022 Copyright:
         <a className="fw-bold mx-1 text-white" href="#">
           <strong>Outrolink.com</strong>
         </a>

@@ -7,15 +7,15 @@ export default function Home() {
   return (
     <section className="homeContent mt-5 d-flex flex-column justify-content-between">
       <section className="text-center contentStore">
-        <h1 className="font-weight-bold">Nome da Loja</h1>
+        <h1 className="font-weight-bold">Stylos Brecho</h1>
         <div className="number_location text-center">
           <div className="text-center mr-3">
             <MDBIcon icon="phone" className="mr-1" />
-            <span>(XX) XXXXX-XXXX</span>
+            <span>(14) 99807-4693</span>
           </div>
           <p className="divider">|</p>
           <div className="text-center ml-3 md:ml-3">
-            <span>Cidade - EST</span>
+            <span>Tejupa - SP</span>
             <MDBIcon icon="map-marker" className="ml-1" />
           </div>
         </div>

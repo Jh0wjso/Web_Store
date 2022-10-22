@@ -16,7 +16,7 @@ export default function Header() {
         <Navbar.Brand href="#">
           <h1>
             <strong className="nameStore">
-              Nome
+              Stylos 
             </strong>
           </h1>
         </Navbar.Brand>
