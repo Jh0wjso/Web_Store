@@ -36,7 +36,7 @@
   -o-transition: 1s;
 }
 
-.number_location{
+.number_location {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -83,14 +83,14 @@
   .textStore {
     margin-right: 0px;
   }
-  .divider{
+  .divider {
     display: none;
   }
-  .number_location{
+  .number_location {
     display: flex;
     flex-direction: column;
   }
-  .contentStore{
+  .contentStore {
     padding: 5px;
   }
 }

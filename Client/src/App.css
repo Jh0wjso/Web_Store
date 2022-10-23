@@ -32,7 +32,10 @@
 }
 
 .home_Content {
-  background-image: linear-gradient(var(--purple-transparent), var(--light-redTransparent));
+  background-image: linear-gradient(
+    var(--purple-transparent),
+    var(--light-redTransparent)
+  );
 }
 
 header {
@@ -40,12 +43,18 @@ header {
 }
 
 .products {
-  background-image: linear-gradient(var(--light-redTransparent), var(--purple-transparent));
+  background-image: linear-gradient(
+    var(--light-redTransparent),
+    var(--purple-transparent)
+  );
   height: auto;
 }
 
 .productsSecond {
-  background-image: linear-gradient(var(--purple-transparent), var(--light-redTransparent));
+  background-image: linear-gradient(
+    var(--purple-transparent),
+    var(--light-redTransparent)
+  );
   height: auto;
 }
 
