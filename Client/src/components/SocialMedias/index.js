@@ -11,30 +11,34 @@ export default function SocialMedias() {
       <section
         className="medias"
       >
-        <div className="d-flex flex-row">
-          <a className="px-3 iconLink">
+        <div className=" d-flex flex-row">
+          <a className="px-3 iconLink d-flex iconLinkInsta flex-column align-items-center">
               <FaInstagram 
                   size={60}
               />
+              <strong className="text-center mediaTexto">Instagram</strong>
           </a>
-          <a className="px-3 iconLink">
-              <FaFacebookSquare 
+          <a className="px-3 iconLink iconLinkFace d-flex flex-column align-items-center">
+              <FaFacebookSquare
                   size={60}
               />
+              <strong className="text-center fw-bold">Facebook</strong>
           </a>
         </div>
         
         <div className="d-flex flex-row">
-          <a className="px-3 iconLink">
+          <a className="px-3 iconLink iconLinkMail d-flex flex-column align-items-center">
               <FaGoogle 
                   size={60}
               />
+              <strong className="text-center">E-Mail</strong>
           </a>
 
-          <a className="px-3 iconLink">
+          <a className="px-3 iconLink iconLinkTwitter d-flex flex-column align-items-center">
               <FaTwitter 
                   size={60}
               />
+              <strong className="text-center">Twitter</strong>
           </a>
         </div>
        

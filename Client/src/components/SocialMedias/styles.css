@@ -6,26 +6,29 @@
 
 .iconLink{
     padding: 5px;
-    border-radius: 5px;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    -ms-border-radius: 5px;
-    -o-border-radius: 5px;
-    transition: 1s;
-    -webkit-transition: 1s;
-    -moz-transition: 1s;
-    -ms-transition: 1s;
-    -o-transition: 1s;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    cursor: pointer;
 }
 
-.iconLink:hover{
-    background-image: linear-gradient(#723ea2, #eb1b3d);
-    cursor: pointer;
-    transition: 1s;
-    -webkit-transition: 1s;
-    -moz-transition: 1s;
-    -ms-transition: 1s;
-    -o-transition: 1s;
+.iconLinkTwitter:hover{
+    background-image: linear-gradient(#0572E6, #0351a5);
+}
+
+.iconLinkMail:hover{
+    background-image: linear-gradient(var(--red), var(--dark-red));
+    
+}
+.iconLinkInsta:hover{
+    background-image: linear-gradient(#eb1b3d,#723ea2);
+    
+}
+.iconLinkFace:hover{
+    background-image: linear-gradient(var(--blue), #04127e);
+    
 }
 
 .medias{
