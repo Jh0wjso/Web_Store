@@ -149,9 +149,9 @@ export default function Footer() {
       <div
         className="text-center text-light p-4 copy-bg"
       >
-        © 2022 Copyright:
+        Acesse Nosso Whatsapp: 
         <a className="fw-bold mx-1 text-white" href="#">
-          <strong>Outrolink.com</strong>
+          <strong>Clique Aqui</strong>.
         </a>
       </div>
     </footer>
