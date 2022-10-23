@@ -1,5 +1,5 @@
 .content{
-    background-image: linear-gradient(#723ea27c, #eb1b3d7c);
+    background-image: linear-gradient(170deg,var(--purple-transparent), var(--light-redTransparent));
     margin-bottom: 10vh;
     height: 40vh;
 }
@@ -15,7 +15,7 @@
 }
 
 .iconLinkTwitter:hover{
-    background-image: linear-gradient(#0572E6, #0351a5);
+    background-image: linear-gradient(var(--blue), #034c99);
 }
 
 .iconLinkMail:hover{
@@ -23,11 +23,11 @@
     
 }
 .iconLinkInsta:hover{
-    background-image: linear-gradient(#eb1b3d,#723ea2);
+    background-image: linear-gradient(var(--light-red),var(--purple));
     
 }
 .iconLinkFace:hover{
-    background-image: linear-gradient(var(--blue), #04127e);
+    background-image: linear-gradient(var(--blue), var(--dark-blue));
     
 }
 

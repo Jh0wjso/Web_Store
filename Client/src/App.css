@@ -7,7 +7,7 @@
   --sea-green-shadow: rgba(11, 190, 173, 0.4);
   --header-hamburger-background: rgba(11, 190, 173, 0.8);
   --orange: #f57f17;
-  --dark-red: #8b1b0c;
+  --dark-red: #851506;
   --orange-shadow: rgba(245, 127, 23, 0.2);
   --white: #ffffff;
   --black: #333333;
@@ -19,6 +19,10 @@
   --loader-color: #0cbfae;
   --red: #da1d1dfa;
   --purple: #723ea2;
+  --purple-transparent: #723ea27c;
+  --dark-blue: #04127e;
+  --light-red: #eb1b3d;
+  --light-redTransparent: #eb1b3d7c;
 }
 
 .MainContent {
@@ -28,7 +32,7 @@
 }
 
 .home_Content {
-  background-image: linear-gradient(#723ea27c, #eb1b3d7c);
+  background-image: linear-gradient(var(--purple-transparent), var(--light-redTransparent));
 }
 
 header {
@@ -36,12 +40,12 @@ header {
 }
 
 .products {
-  background-image: linear-gradient(#eb1b3d7c, #723ea27c);
+  background-image: linear-gradient(var(--light-redTransparent), var(--purple-transparent));
   height: auto;
 }
 
 .productsSecond {
-  background-image: linear-gradient(#723ea27c, #eb1b3d7c);
+  background-image: linear-gradient(var(--purple-transparent), var(--light-redTransparent));
   height: auto;
 }
 
