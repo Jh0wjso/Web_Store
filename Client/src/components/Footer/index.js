@@ -150,7 +150,7 @@ export default function Footer() {
         className="text-center text-light p-4 copy-bg"
       >
         Acesse Nosso Whatsapp: 
-        <a className="fw-bold mx-1 text-white" href="#">
+        <a className="fw-bold mx-1 text-white" href="https://api.whatsapp.com/send?phone=5514998074693&text=Oi%2C%20vim%20pelo%20site." target={"_blank"}>
           <strong>Clique Aqui</strong>.
         </a>
       </div>
