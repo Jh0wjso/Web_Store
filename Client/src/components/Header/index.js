@@ -6,18 +6,16 @@ import "./styles.css";
 
 export default function Header() {
   return (
-    <Navbar 
+    <Navbar
       expand="lg"
       className="content-header"
       variant="dark"
-      style={{backgroundColor: "transparent"}}
+      style={{ backgroundColor: "transparent" }}
     >
       <Container className="d-flex flex-row justify-content-between">
         <Navbar.Brand href="#">
           <h1>
-            <strong className="nameStore">
-              Stylos 
-            </strong>
+            <strong className="nameStore">Stylos</strong>
           </h1>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />

@@ -20,11 +20,7 @@ export default function Beauty() {
       <section>
         <Carousel cols={3} rows={1} gap={10} loop>
           <Carousel.Item>
-            <img
-              width="100%"
-              src={Zero15}
-              className="img-product"
-            />
+            <img width="100%" src={Zero15} className="img-product" />
             <a
               href="https://api.whatsapp.com/send?phone=5514998074693&text=Oi%2C%20estou%20interessado(a)%20no%20015."
               target={"_blank"}
@@ -34,11 +30,7 @@ export default function Beauty() {
             </a>
           </Carousel.Item>
           <Carousel.Item>
-            <img
-              width="100%"
-              src={Exclusive}
-              className="img-product"
-            />
+            <img width="100%" src={Exclusive} className="img-product" />
             <a
               href="https://api.whatsapp.com/send?phone=5514998074693&text=Oi%2C%20estou%20interessado(a)%20no%20Exclusive."
               target={"_blank"}
@@ -48,11 +40,7 @@ export default function Beauty() {
             </a>
           </Carousel.Item>
           <Carousel.Item>
-            <img
-              width="100%"
-              src={FarAway}
-              className="img-product"
-            />
+            <img width="100%" src={FarAway} className="img-product" />
             <a
               href="https://api.whatsapp.com/send?phone=5514998074693&text=Oi%2C%20estou%20interessado(a)%20no%20Far%20Away."
               target={"_blank"}
@@ -62,11 +50,7 @@ export default function Beauty() {
             </a>
           </Carousel.Item>
           <Carousel.Item>
-            <img
-              width="100%"
-              src={Imari}
-              className="img-product"
-            />
+            <img width="100%" src={Imari} className="img-product" />
             <a
               href="https://api.whatsapp.com/send?phone=5514998074693&text=Oi%2C%20estou%20interessado(a)%20no%20Imari."
               target={"_blank"}
@@ -76,11 +60,7 @@ export default function Beauty() {
             </a>
           </Carousel.Item>
           <Carousel.Item>
-            <img
-              width="100%"
-              src={Musk}
-              className="img-product"
-            />
+            <img width="100%" src={Musk} className="img-product" />
             <a
               href="https://api.whatsapp.com/send?phone=5514998074693&text=Oi%2C%20estou%20interessado(a)%20no%Musk."
               target={"_blank"}
@@ -90,11 +70,7 @@ export default function Beauty() {
             </a>
           </Carousel.Item>
           <Carousel.Item>
-            <img
-              width="100%"
-              src={Segno}
-              className="img-product"
-            />
+            <img width="100%" src={Segno} className="img-product" />
             <a
               href="https://api.whatsapp.com/send?phone=5514998074693&text=Oi%2C%20estou%20interessado(a)%20no%Segno."
               target={"_blank"}
@@ -104,11 +80,7 @@ export default function Beauty() {
             </a>
           </Carousel.Item>
           <Carousel.Item>
-            <img
-              width="100%"
-              src={Essential}
-              className="img-product"
-            />
+            <img width="100%" src={Essential} className="img-product" />
             <a
               href="https://api.whatsapp.com/send?phone=5514998074693&text=Oi%2C%20estou%20interessado(a)%20no%Essential."
               target={"_blank"}
@@ -118,11 +90,7 @@ export default function Beauty() {
             </a>
           </Carousel.Item>
           <Carousel.Item>
-            <img
-              width="100%"
-              src={Surreal}
-              className="img-product"
-            />
+            <img width="100%" src={Surreal} className="img-product" />
             <a
               href="https://api.whatsapp.com/send?phone=5514998074693&text=Oi%2C%20estou%20interessado(a)%20no%Surreal."
               target={"_blank"}
@@ -132,11 +100,7 @@ export default function Beauty() {
             </a>
           </Carousel.Item>
           <Carousel.Item>
-            <img
-              width="100%"
-              src={Victory}
-              className="img-product"
-            />
+            <img width="100%" src={Victory} className="img-product" />
             <a
               href="https://api.whatsapp.com/send?phone=5514998074693&text=Oi%2C%20estou%20interessado(a)%20no%Victory."
               target={"_blank"}

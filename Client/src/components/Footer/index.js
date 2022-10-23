@@ -10,7 +10,7 @@ import "./styles.css";
 
 export default function Footer() {
   return (
-    <footer className="footer-bg" >
+    <footer className="footer-bg">
       <MDBFooter
         style={{ backgroundColor: "transparent" }}
         className="pt-1 text-center text-lg-start text-muted container"
@@ -51,7 +51,8 @@ export default function Footer() {
                   <strong>Stylos Store</strong>
                 </h2>
                 <p>
-                  Somos uma loja que sempre busca melhor atende-lo e melhor servi-lo.
+                  Somos uma loja que sempre busca melhor atende-lo e melhor
+                  servi-lo.
                 </p>
               </MDBCol>
 
@@ -146,11 +147,13 @@ export default function Footer() {
           </MDBContainer>
         </section>
       </MDBFooter>
-      <div
-        className="text-center text-light p-4 copy-bg"
-      >
-        Acesse Nosso Whatsapp: 
-        <a className="fw-bold mx-1 text-white" href="https://api.whatsapp.com/send?phone=5514998074693&text=Oi%2C%20vim%20pelo%20site." target={"_blank"}>
+      <div className="text-center text-light p-4 copy-bg">
+        Acesse Nosso Whatsapp:
+        <a
+          className="fw-bold mx-1 text-white"
+          href="https://api.whatsapp.com/send?phone=5514998074693&text=Oi%2C%20vim%20pelo%20site."
+          target={"_blank"}
+        >
           <strong>Clique Aqui</strong>.
         </a>
       </div>
