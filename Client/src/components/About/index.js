@@ -6,7 +6,7 @@ export default function About()
     return(
         <div className="fw-bold d-flex flex-row justify-content-between container mb-5">
             <section className="content-left justify-content-between p-5">
-                <h1 className="text-center">Stylos Brecho</h1>
+                <h1 className="text-center">Stylos Store</h1>
                 <span className="text-center">
                     Conheça mais sobre a nosso loja.
                 </span>

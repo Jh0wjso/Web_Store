@@ -48,7 +48,7 @@ export default function Footer() {
               <MDBCol md="3" lg="4" xl="3" className="mx-auto mb-4">
                 <h2 className="text-uppercase fw-bold mb-4">
                   <MDBIcon icon="gem" className="me-3" />
-                  <strong>Stylos Brecho</strong>
+                  <strong>Stylos Store</strong>
                 </h2>
                 <p>
                   Somos uma loja que sempre busca melhor atende-lo e melhor servi-lo.
