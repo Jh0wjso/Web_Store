@@ -111,6 +111,9 @@ export default function Beauty() {
           </Carousel.Item>
         </Carousel>
       </section>
+      <div className="d-flex justify-content-end">
+        <strong>Produtos meramente ilustrativos.</strong>
+      </div>
     </div>
   );
 }
