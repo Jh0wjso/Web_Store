@@ -1,11 +1,7 @@
 .content {
   background-image: linear-gradient(
-    170deg,
-    var(--purple-transparent),
-    var(--light-redTransparent)
+    
   );
-  margin-bottom: 10vh;
-  height: 40vh;
 }
 
 .iconLink {
@@ -45,5 +41,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 0px;
   }
 }

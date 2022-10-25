@@ -11,12 +11,12 @@ import {
 
 export default function SocialMedias() {
   return (
-    <div className="container content rounded p-5 d-flex flex-column justify-content-center align-items-center">
+    <div className="content rounded p-5 d-flex flex-column justify-content-center align-items-center">
       <h1 className="text-center fw-bold text-uppercase">
         Se Conecte conosco:
       </h1>
       <section className="medias">
-        <div className=" d-flex flex-row">
+        <div className="d-flex flex-row">
           <a className="px-3 iconLink d-flex iconLinkInsta flex-column align-items-center">
             <FaInstagram size={60} />
             <strong className="text-center mediaTexto">Instagram</strong>

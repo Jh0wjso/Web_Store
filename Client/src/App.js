@@ -33,9 +33,6 @@ function App() {
       <div className="productsSecond" id="about">
         <About />
       </div>
-      <div className="products" id="contact">
-        <SocialMedias />
-      </div>
       <Footer />
     </div>
   );
