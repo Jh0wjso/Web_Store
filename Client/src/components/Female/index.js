@@ -20,7 +20,7 @@ export default function Female() {
             <img width="100%" src={DressImage} className="img-product" />
             <a
               href=""
-              className="btn-interesse border-0 w-100 d-flex justify-content-center p-2 text-white text-decoration-none"
+              className="btn-interesse border-0 w-100 d-flex justify-content-center p-2 text-white font-weight-bold text-decoration-none "
             >
               Me interesso
             </a>
@@ -29,7 +29,7 @@ export default function Female() {
             <img width="100%" src={JeansWoman} className="img-product" />
             <a
               href=""
-              className="btn-interesse border-0 w-100 d-flex justify-content-center p-2 text-white text-decoration-none"
+              className="btn-interesse border-0 w-100 d-flex justify-content-center p-2 text-white text-decoration-none font-weight-bold"
             >
               Me interesso
             </a>
@@ -38,7 +38,7 @@ export default function Female() {
             <img width="100%" src={ShortJeans} className="img-product" />
             <a
               href=""
-              className="btn-interesse border-0 w-100 d-flex justify-content-center p-2 text-white text-decoration-none"
+              className="btn-interesse border-0 w-100 d-flex justify-content-center p-2 text-white text-decoration-none font-weight-bold"
             >
               Me interesso
             </a>
@@ -47,7 +47,7 @@ export default function Female() {
             <img width="100%" src={Saia} className="img-product" />
             <a
               href=""
-              className="btn-interesse border-0 w-100 d-flex justify-content-center p-2 text-white text-decoration-none"
+              className="btn-interesse border-0 w-100 d-flex justify-content-center p-2 text-white text-decoration-none font-weight-bold"
             >
               Me interesso
             </a>
@@ -56,7 +56,7 @@ export default function Female() {
             <img width="100%" src={Moletom} className="img-product" />
             <a
               href=""
-              className="btn-interesse border-0 w-100 d-flex justify-content-center p-2 text-white text-decoration-none"
+              className="btn-interesse border-0 w-100 d-flex justify-content-center p-2 text-white text-decoration-none font-weight-bold"
             >
               Me interesso
             </a>
@@ -65,7 +65,7 @@ export default function Female() {
             <img width="100%" src={Blusa} className="img-product" />
             <a
               href=""
-              className="btn-interesse border-0 w-100 d-flex justify-content-center p-2 text-white text-decoration-none"
+              className="btn-interesse border-0 w-100 d-flex justify-content-center p-2 text-white text-decoration-none font-weight-bold"
             >
               Me interesso
             </a>

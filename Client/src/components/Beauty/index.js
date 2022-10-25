@@ -24,7 +24,7 @@ export default function Beauty() {
             <a
               href="https://api.whatsapp.com/send?phone=5514998074693&text=Oi%2C%20estou%20interessado(a)%20no%20015."
               target={"_blank"}
-              className="btn-interesse border-0 w-100 d-flex justify-content-center p-2 text-white text-decoration-none"
+              className="btn-interesse border-0 w-100 d-flex justify-content-center p-2 text-white text-decoration-none font-weight-bold"
             >
               Me interesso
             </a>
@@ -34,7 +34,7 @@ export default function Beauty() {
             <a
               href="https://api.whatsapp.com/send?phone=5514998074693&text=Oi%2C%20estou%20interessado(a)%20no%20Exclusive."
               target={"_blank"}
-              className="btn-interesse border-0 w-100 d-flex justify-content-center p-2 text-white text-decoration-none"
+              className="btn-interesse border-0 w-100 d-flex justify-content-center p-2 text-white text-decoration-none font-weight-bold"
             >
               Me interesso
             </a>
@@ -44,7 +44,7 @@ export default function Beauty() {
             <a
               href="https://api.whatsapp.com/send?phone=5514998074693&text=Oi%2C%20estou%20interessado(a)%20no%20Far%20Away."
               target={"_blank"}
-              className="btn-interesse border-0 w-100 d-flex justify-content-center p-2 text-white text-decoration-none"
+              className="btn-interesse border-0 w-100 d-flex justify-content-center p-2 text-white text-decoration-none font-weight-bold"
             >
               Me interesso
             </a>
@@ -54,7 +54,7 @@ export default function Beauty() {
             <a
               href="https://api.whatsapp.com/send?phone=5514998074693&text=Oi%2C%20estou%20interessado(a)%20no%20Imari."
               target={"_blank"}
-              className="btn-interesse border-0 w-100 d-flex justify-content-center p-2 text-white text-decoration-none"
+              className="btn-interesse border-0 w-100 d-flex justify-content-center p-2 text-white text-decoration-none font-weight-bold"
             >
               Me interesso
             </a>
@@ -64,7 +64,7 @@ export default function Beauty() {
             <a
               href="https://api.whatsapp.com/send?phone=5514998074693&text=Oi%2C%20estou%20interessado(a)%20no%Musk."
               target={"_blank"}
-              className="btn-interesse border-0 w-100 d-flex justify-content-center p-2 text-white text-decoration-none"
+              className="btn-interesse border-0 w-100 d-flex justify-content-center p-2 text-white text-decoration-none font-weight-bold"
             >
               Me interesso
             </a>
@@ -74,7 +74,7 @@ export default function Beauty() {
             <a
               href="https://api.whatsapp.com/send?phone=5514998074693&text=Oi%2C%20estou%20interessado(a)%20no%Segno."
               target={"_blank"}
-              className="btn-interesse border-0 w-100 d-flex justify-content-center p-2 text-white text-decoration-none"
+              className="btn-interesse border-0 w-100 d-flex justify-content-center p-2 text-white text-decoration-none font-weight-bold"
             >
               Me interesso
             </a>
@@ -84,7 +84,7 @@ export default function Beauty() {
             <a
               href="https://api.whatsapp.com/send?phone=5514998074693&text=Oi%2C%20estou%20interessado(a)%20no%Essential."
               target={"_blank"}
-              className="btn-interesse border-0 w-100 d-flex justify-content-center p-2 text-white text-decoration-none"
+              className="btn-interesse border-0 w-100 d-flex justify-content-center p-2 text-white text-decoration-none font-weight-bold"
             >
               Me interesso
             </a>
@@ -94,7 +94,7 @@ export default function Beauty() {
             <a
               href="https://api.whatsapp.com/send?phone=5514998074693&text=Oi%2C%20estou%20interessado(a)%20no%Surreal."
               target={"_blank"}
-              className="btn-interesse border-0 w-100 d-flex justify-content-center p-2 text-white text-decoration-none"
+              className="btn-interesse border-0 w-100 d-flex justify-content-center p-2 text-white text-decoration-none font-weight-bold"
             >
               Me interesso
             </a>
@@ -104,7 +104,7 @@ export default function Beauty() {
             <a
               href="https://api.whatsapp.com/send?phone=5514998074693&text=Oi%2C%20estou%20interessado(a)%20no%Victory."
               target={"_blank"}
-              className="btn-interesse border-0 w-100 d-flex justify-content-center p-2 text-white text-decoration-none"
+              className="btn-interesse border-0 w-100 d-flex justify-content-center p-2 text-white text-decoration-none font-weight-bold"
             >
               Me interesso
             </a>
