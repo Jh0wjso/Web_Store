@@ -13,7 +13,7 @@ import Camisas from "../../assets/Man/camisasMasculinas.jpg";
 export default function Male() {
   return (
     <div className="container mb-5">
-      <h2 className="mb-3 text-center">Produtos Masulinos</h2>
+      <h1 className="mb-3 text-center font-weight-bold">Produtos Masulinos</h1>
       <section>
         <Carousel cols={3} rows={1} gap={10} loop>
           <Carousel.Item>

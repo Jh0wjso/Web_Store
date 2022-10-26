@@ -13,7 +13,7 @@ import Blusa from "../../assets/Products/blusaFeminina.jpg";
 export default function Female() {
   return (
     <div className="container mb-5">
-      <h2 className="mb-3 text-center">Roupas Femininas</h2>
+      <h1 className="mb-3 text-center font-weight-bold">Roupas Femininas</h1>
       <section>
         <Carousel cols={3} rows={1} gap={10} loop>
           <Carousel.Item>

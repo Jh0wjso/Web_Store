@@ -16,7 +16,7 @@ import Essential from "../../assets/Beauty/essentialBlack.jpeg";
 export default function Beauty() {
   return (
     <div className="container mb-5">
-      <h2 className="mb-3 text-center">Produtos de Beleza</h2>
+      <h1 className="mb-3 text-center font-weight-bold">Produtos de Beleza</h1>
       <section>
         <Carousel cols={3} rows={1} gap={10} loop>
           <Carousel.Item>
