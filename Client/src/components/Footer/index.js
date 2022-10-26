@@ -24,19 +24,25 @@ export default function Footer() {
             <a href="#!" className="btnSocialMedia mx-2 text-reset">
               <MDBIcon
                 icon="facebook-f"
-                className="iconSocialMedia rounded p-2"
+                className="iconSocialMedia iconLinkFace rounded p-2"
               />
             </a>
             <a href="#!" className="mx-2 text-reset">
-              <MDBIcon icon="twitter" className="iconSocialMedia rounded p-2" />
+              <MDBIcon
+                icon="twitter"
+                className="iconSocialMedia iconLinkTwitter rounded p-2"
+              />
             </a>
             <a href="" className="mx-2 text-reset">
-              <MDBIcon icon="google" className="iconSocialMedia rounded p-2" />
+              <MDBIcon
+                icon="google"
+                className="iconSocialMedia iconLinkMail rounded p-2"
+              />
             </a>
             <a href="" className="mx-2 text-reset">
               <MDBIcon
                 icon="instagram"
-                className="iconSocialMedia rounded p-2"
+                className="iconSocialMedia iconLinkInsta rounded p-2"
               />
             </a>
           </div>
@@ -45,20 +51,19 @@ export default function Footer() {
         <section className="">
           <MDBContainer className="text-center text-white text-md-start mt-5">
             <MDBRow className="mt-3">
-              <MDBCol md="3" lg="4" xl="3" className="mx-auto mb-4">
-                <h2 className="text-uppercase fw-bold mb-4">
-                  <MDBIcon icon="gem" className="me-3" />
-                  <strong>Stylos Store</strong>
-                </h2>
+              <MDBCol md="3" lg="4" xl="3" className="mx-auto mb-4 d-flex flex-column align-items-center justify-content-center">
+                <section className="content-left d-flex justify-content-center align-items-center">
+                  <h1 className="text-center font-weight-bold">Stylos <br/><h1 className="ml-5">Store</h1></h1>
+                </section>
                 <p>
                   Somos uma loja que sempre busca melhor atende-lo e melhor
                   servi-lo.
                 </p>
               </MDBCol>
 
-              <MDBCol md="2" lg="2" xl="2" className="mx-auto mb-4 text-white">
+              <MDBCol md="2" lg="2" xl="2" className="mx-3 mb-4 text-white">
                 <h5 className="text-uppercase fw-bold mb-4">
-                  <strong>Masculinos</strong>
+                  <strong className="text-center">Masculinos</strong>
                 </h5>
                 <p>
                   <a href="#!" className="text-reset text-white-50">
@@ -129,7 +134,7 @@ export default function Footer() {
                   <MDBIcon icon="envelope" className="mx-2" />
                   Nosso Email
                   <a href="mailto:jhonatansilverio1258@gmail.com">
-                    <strong className="text-white text-decoration-none mx-1 fw-bold">
+                    <strong className="mail text-white mx-1 fw-bold">
                       Clique Aqui
                     </strong>
                   </a>

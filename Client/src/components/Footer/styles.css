@@ -11,15 +11,19 @@
   border-color: #1c1c1c;
   border-width: 1px;
 }
-.btnSocialMedia:hover {
-  background-color: var(--light-red);
-  color: var(--purple);
-  border-color: #1c1c1c;
-  border-width: 1px;
+
+.iconLinkTwitter:hover {
+  background-image: linear-gradient(var(--blue), #034c99);
+  color: var(--white);
+  transition: 1s;
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  -ms-transition: 1s;
+  -o-transition: 1s;
 }
 
-.iconSocialMedia {
-  background-color: var(--light-red);
+.iconLinkMail:hover {
+  background-image: linear-gradient(var(--red), var(--dark-red));
   color: var(--white);
   transition: 0.5s;
   -webkit-transition: 0.5s;
@@ -27,12 +31,35 @@
   -ms-transition: 0.5s;
   -o-transition: 0.5s;
 }
-.iconSocialMedia:hover {
-  background-color: var(--white);
+.iconLinkInsta:hover {
+  background-image: linear-gradient(var(--light-red), var(--purple));
+  color: var(--white);
   transition: 0.5s;
-  color: var(--purple);
   -webkit-transition: 0.5s;
   -moz-transition: 0.5s;
   -ms-transition: 0.5s;
   -o-transition: 0.5s;
+}
+.iconLinkFace:hover {
+  background-image: linear-gradient(var(--blue), var(--dark-blue));
+  color: var(--white);
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+
+.iconSocialMedia {
+  color: var(--light-red);
+  background-color: var(--white);
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+
+.mail:hover{
+  text-decoration: underline #FFFFFF;
 }
