@@ -13,13 +13,13 @@ export default function Header() {
       style={{ backgroundColor: "transparent" }}
     >
       <Container className="d-flex flex-row justify-content-between">
-        <Navbar.Brand href="#">
+        <Navbar.Brand className="justify-content-start">
           <h1>
             <strong className="nameStore">Stylos</strong>
           </h1>
         </Navbar.Brand>
-        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-        <Navbar.Collapse id="responsive-navbar-nav">
+        <Navbar.Toggle aria-controls="responsive-navbar-nav" className="justify-content-end" />
+        <Navbar.Collapse id="responsive-navbar-nav" className="justify-content-end">
           <Nav className="me-auto">
             <Nav.Link href="#feminino">Feminino</Nav.Link>
             <Nav.Link href="#man">Masculino</Nav.Link>
