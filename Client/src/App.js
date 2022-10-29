@@ -8,7 +8,6 @@ import Female from "./components/Female";
 import Male from "./components/Male";
 import Beauty from "./components/Beauty";
 import About from "./components/About";
-import SocialMedias from "./components/SocialMedias";
 
 function App() {
   return (
