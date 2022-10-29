@@ -16,7 +16,7 @@ function App() {
       className="MainContent d-flex flex-column"
       style={{ backgroundColor: "#3C3939" }}
     >
-      <a href="#feminino" className="skipContent">Skip to main content</a>
+      <a href="#feminino" className="skipContent">Ir para os produtos principais</a>
       <section className="home_Content" id="home">
         <Header />
         <Home />

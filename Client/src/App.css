@@ -50,11 +50,11 @@
   color: var(--white);
   padding: .5rem;
   translate: 0 -100%;
-  transition: translate 150ms ease-in-out;
-  -webkit-transition: translate 150ms ease-in-out;
-  -moz-transition: translate 150ms ease-in-out;
-  -ms-transition: translate 150ms ease-in-out;
-  -o-transition: translate 150ms ease-in-out;
+  transition: translate 200ms ease-in-out;
+  -webkit-transition: translate 200ms ease-in-out;
+  -moz-transition: translate 200ms ease-in-out;
+  -ms-transition: translate 200ms ease-in-out;
+  -o-transition: translate 200ms ease-in-out;
 }
 
 .skipContent:focus{
