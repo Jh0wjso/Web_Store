@@ -66,27 +66,27 @@ export default function Footer() {
                   <strong className="text-center">Masculinos</strong>
                 </h5>
                 <p>
-                  <a href="#!" className="text-reset text-white-50">
+                  <a href="https://api.whatsapp.com/send?phone=5514998074693&text=Oi%2C%20estou%20interessado(a)%20nas%20camisas." className="text-reset text-white-50">
                     Camisas
                   </a>
                 </p>
                 <p>
-                  <a href="#!" className="text-reset text-white-50">
+                  <a href="https://api.whatsapp.com/send?phone=5514998074693&text=Oi%2C%20estou%20interessado(a)%20nas%20cal%C3%A7as." className="text-reset text-white-50">
                     Calças
                   </a>
                 </p>
                 <p>
-                  <a href="#!" className="text-reset text-white-50">
+                  <a href="https://api.whatsapp.com/send?phone=5514998074693&text=Oi%2C%20estou%20interessado(a)%20nos%20shorts." className="text-reset text-white-50">
                     Shorts
                   </a>
                 </p>
                 <p>
-                  <a href="#!" className="text-reset text-white-50">
+                  <a href="https://api.whatsapp.com/send?phone=5514998074693&text=Oi%2C%20estou%20interessado(a)%20nas%20blusas." className="text-reset text-white-50">
                     Blusas
                   </a>
                 </p>
                 <p>
-                  <a href="#!" className="text-reset text-white-50">
+                  <a href="https://api.whatsapp.com/send?phone=5514998074693&text=Oi%2C%20vim%20pelo%20site. " className="text-reset text-white-50">
                     Outros
                   </a>
                 </p>
@@ -96,27 +96,27 @@ export default function Footer() {
                   <strong>Feminino</strong>
                 </h5>
                 <p>
-                  <a href="#!" className="text-reset text-white-50">
-                    Camisetas
+                  <a href="https://api.whatsapp.com/send?phone=5514998074693&text=Oi%2C%20estou%20interessado(a)%20nas%20blusinhas." className="text-reset text-white-50">
+                    Blusinhas
                   </a>
                 </p>
                 <p>
-                  <a href="#!" className="text-reset text-white-50">
+                  <a href="https://api.whatsapp.com/send?phone=5514998074693&text=Oi%2C%20estou%20interessado(a)%20nas%20saias." className="text-reset text-white-50">
                     Saias
                   </a>
                 </p>
                 <p>
-                  <a href="#!" className="text-reset text-white-50">
+                  <a href="https://api.whatsapp.com/send?phone=5514998074693&text=Oi%2C%20estou%20interessado(a)%20nas%20blusas." className="text-reset text-white-50">
                     Blusas
                   </a>
                 </p>
                 <p>
-                  <a href="#!" className="text-reset text-white-50">
+                  <a href="https://api.whatsapp.com/send?phone=5514998074693&text=Oi%2C%20estou%20interessado(a)%20nos%20shorts." className="text-reset text-white-50">
                     Shorts
                   </a>
                 </p>
                 <p>
-                  <a href="#!" className="text-reset text-white-50">
+                  <a href="https://api.whatsapp.com/send?phone=5514998074693&text=Oi%2C%20vim%20pelo%20site." className="text-reset text-white-50">
                     Outros
                   </a>
                 </p>
