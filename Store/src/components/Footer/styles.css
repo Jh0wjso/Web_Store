@@ -15,49 +15,29 @@
 .iconLinkTwitter:hover {
   background-image: linear-gradient(var(--blue), #034c99);
   color: var(--white);
-  transition: 1s;
-  -webkit-transition: 1s;
-  -moz-transition: 1s;
-  -ms-transition: 1s;
-  -o-transition: 1s;
 }
 
 .iconLinkMail:hover {
   background-image: linear-gradient(var(--red), var(--dark-red));
   color: var(--white);
-  transition: 0.5s;
-  -webkit-transition: 0.5s;
-  -moz-transition: 0.5s;
-  -ms-transition: 0.5s;
-  -o-transition: 0.5s;
 }
 .iconLinkInsta:hover {
-  background-image: linear-gradient(var(--light-red), var(--purple));
+  background-image: linear-gradient(-170deg, var(--light-red), var(--dark-blue));
   color: var(--white);
-  transition: 0.5s;
-  -webkit-transition: 0.5s;
-  -moz-transition: 0.5s;
-  -ms-transition: 0.5s;
-  -o-transition: 0.5s;
 }
 .iconLinkFace:hover {
-  background-image: linear-gradient(var(--blue), var(--dark-blue));
+  background-image: linear-gradient(170deg, var(--blue), var(--dark-blue));
   color: var(--white);
-  transition: 0.5s;
-  -webkit-transition: 0.5s;
-  -moz-transition: 0.5s;
-  -ms-transition: 0.5s;
-  -o-transition: 0.5s;
 }
 
 .iconSocialMedia {
-  color: var(--light-red);
-  background-color: var(--white);
-  transition: 0.5s;
-  -webkit-transition: 0.5s;
-  -moz-transition: 0.5s;
-  -ms-transition: 0.5s;
-  -o-transition: 0.5s;
+  background-color: var(--light-red);
+  color: var(--white);
+  transition: 1s;
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  -ms-transition: 1s;
+  -o-transition: 1s;
 }
 
 .mail:hover{
