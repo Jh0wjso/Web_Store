@@ -3,12 +3,12 @@ import "./styles.css";
 
 import Carousel from "better-react-carousel";
 
-import Jeans from "../../assets/Man/jeansMasculinos.jpeg";
-import Moletom from "../../assets/Man/moletom.png";
-import Shorts from "../../assets/Man/shorts.jpg";
-import Camisetas from "../../assets/Man/camisetas.jpg";
-import CamisetasTime from "../../assets/Man/time.jpg";
-import Camisas from "../../assets/Man/camisasMasculinas.jpg";
+import Um from "../../assets/Products/Roupas/Masculinas/1.jpeg";
+import Dois from "../../assets/Products/Roupas/Masculinas/2.jpeg";
+import Tres from "../../assets/Products/Roupas/Masculinas/3.jpeg";
+import Quatro from "../../assets/Products/Roupas/Masculinas/4.jpeg";
+import Cinco from "../../assets/Products/Roupas/Masculinas/5.jpeg";
+import Seis from "../../assets/Products/Roupas/Masculinas/6.jpeg";
 
 export default function Male() {
   return (
@@ -17,7 +17,16 @@ export default function Male() {
       <section>
         <Carousel cols={3} rows={1} gap={10} loop>
           <Carousel.Item>
-            <img width="100%" src={Jeans} className="img-product" />
+            <img width="100%" src={Um} className="img-product" />
+            <a
+              href="https://api.whatsapp.com/send?phone=5514998074693&text=Oi%2C%20estou%20interessado(a)%20nao%20vestidos."
+              className="btn-interesse border-0 w-100 d-flex justify-content-center p-2 text-white font-weight-bold text-decoration-none "
+            >
+              Me interesso
+            </a>
+          </Carousel.Item>
+          <Carousel.Item>
+            <img width="100%" src={Dois} className="img-product" />
             <a
               href="https://api.whatsapp.com/send?phone=5514998074693&text=Oi%2C%20estou%20interessado(a)%20nas%20cal%C3%A7as."
               className="btn-interesse border-0 w-100 d-flex justify-content-center p-2 text-white text-decoration-none font-weight-bold"
@@ -26,16 +35,7 @@ export default function Male() {
             </a>
           </Carousel.Item>
           <Carousel.Item>
-            <img width="100%" src={Moletom} className="img-product" />
-            <a
-              href="https://api.whatsapp.com/send?phone=5514998074693&text=Oi%2C%20estou%20interessado(a)%20nas%20blusas."
-              className="btn-interesse border-0 w-100 d-flex justify-content-center p-2 text-white text-decoration-none font-weight-bold"
-            >
-              Me interesso
-            </a>
-          </Carousel.Item>
-          <Carousel.Item>
-            <img width="100%" src={Shorts} className="img-product" />
+            <img width="100%" src={Tres} className="img-product" />
             <a
               href="https://api.whatsapp.com/send?phone=5514998074693&text=Oi%2C%20estou%20interessado(a)%20nos%20shorts."
               className="btn-interesse border-0 w-100 d-flex justify-content-center p-2 text-white text-decoration-none font-weight-bold"
@@ -44,27 +44,27 @@ export default function Male() {
             </a>
           </Carousel.Item>
           <Carousel.Item>
-            <img width="100%" src={Camisetas} className="img-product" />
+            <img width="100%" src={Quatro} className="img-product" />
             <a
-              href="https://api.whatsapp.com/send?phone=5514998074693&text=Oi%2C%20estou%20interessado(a)%20nas%20camisetas."
+              href="https://api.whatsapp.com/send?phone=5514998074693&text=Oi%2C%20estou%20interessado(a)%20nas%20saias."
               className="btn-interesse border-0 w-100 d-flex justify-content-center p-2 text-white text-decoration-none font-weight-bold"
             >
               Me interesso
             </a>
           </Carousel.Item>
           <Carousel.Item>
-            <img width="100%" src={CamisetasTime} className="img-product" />
+            <img width="100%" src={Cinco} className="img-product" />
             <a
-              href="https://api.whatsapp.com/send?phone=5514998074693&text=Oi%2C%20estou%20interessado(a)%20nas%20blusas%20de%20time."
+              href="https://api.whatsapp.com/send?phone=5514998074693&text=Oi%2C%20estou%20interessado(a)%20nos%20moletons."
               className="btn-interesse border-0 w-100 d-flex justify-content-center p-2 text-white text-decoration-none font-weight-bold"
             >
               Me interesso
             </a>
           </Carousel.Item>
           <Carousel.Item>
-            <img width="100%" src={Camisas} className="img-product" />
+            <img width="100%" src={Seis} className="img-product" />
             <a
-              href="https://api.whatsapp.com/send?phone=5514998074693&text=Oi%2C%20estou%20interessado(a)%20nas%20camisas."
+              href="https://api.whatsapp.com/send?phone=5514998074693&text=Oi%2C%20estou%20interessado(a)%20nas%20blusinhas."
               className="btn-interesse border-0 w-100 d-flex justify-content-center p-2 text-white text-decoration-none font-weight-bold"
             >
               Me interesso
