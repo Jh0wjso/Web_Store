@@ -10,7 +10,7 @@
   transition: 1s;
 }
 .btn-interesse:hover {
-  background-color: var(--light-red);
+  background-color: var(--light-redTransparent);
   cursor: pointer;
   transition: 1s;
   -webkit-transition: 1s;

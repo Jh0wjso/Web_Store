@@ -1,3 +1,7 @@
 .nameStore {
   font-size: larger;
 }
+
+.links{
+  background-color: var(--purple-transparent);
+}

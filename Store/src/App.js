@@ -24,7 +24,7 @@ function App() {
       <div className="products" id="feminino">
         <Female />
       </div>
-      <div className="productsSecond" id="Sapatos">
+      <div className="productsSecond" id="shoes">
         <Shoes />
       </div>
       <div className="products" id="man">

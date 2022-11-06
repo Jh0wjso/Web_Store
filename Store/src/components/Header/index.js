@@ -22,6 +22,7 @@ export default function Header() {
         <Navbar.Collapse id="responsive-navbar-nav" className="justify-content-end">
           <Nav className="me-auto">
             <Nav.Link href="#feminino">Feminino</Nav.Link>
+            <Nav.Link href="#shoes">Sapatos</Nav.Link>
             <Nav.Link href="#man">Masculino</Nav.Link>
             <Nav.Link href="#beauty">Beleza</Nav.Link>
             <Nav.Link href="#about">Sobre</Nav.Link>

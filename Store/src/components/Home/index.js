@@ -18,11 +18,11 @@ export default function Home() {
         <div className="number_location text-center">
           <div className="text-center mr-3">
             <MDBIcon icon="phone" className="mr-1" />
-            <span>(14) 99807-4693</span>
+            <span className="font-weight-bold">(14) 99807-4693</span>
           </div>
           <p className="divider">|</p>
           <div className="text-center ml-3 md:ml-3">
-            <span>Tejupa - SP</span>
+            <span className="font-weight-bold">Tejupa - SP</span>
             <MDBIcon icon="map-marker" className="ml-1" />
           </div>
         </div>
