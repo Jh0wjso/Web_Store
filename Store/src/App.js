@@ -8,6 +8,7 @@ import Female from "./components/Female";
 import Male from "./components/Male";
 import Beauty from "./components/Beauty";
 import About from "./components/About";
+import Shoes from "./components/Shoes";
 
 function App() {
   return (
@@ -23,13 +24,16 @@ function App() {
       <div className="products" id="feminino">
         <Female />
       </div>
-      <div className="productsSecond" id="man">
+      <div className="productsSecond" id="Sapatos">
+        <Shoes />
+      </div>
+      <div className="products" id="man">
         <Male />
       </div>
-      <div className="products" id="beauty">
+      <div className="productsSecond" id="beauty">
         <Beauty />
       </div>
-      <div className="productsSecond" id="about">
+      <div className="products" id="about">
         <About />
       </div>
       <Footer />
