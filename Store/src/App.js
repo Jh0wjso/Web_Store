@@ -9,6 +9,7 @@ import Male from "./components/Male";
 import Beauty from "./components/Beauty";
 import About from "./components/About";
 import Shoes from "./components/Shoes";
+import Social from "./components/Social";
 
 function App() {
   return (
@@ -31,9 +32,12 @@ function App() {
         <Male />
       </div>
       <div className="productsSecond" id="beauty">
+        <Social />
+      </div>
+      <div className="products" id="beauty">
         <Beauty />
       </div>
-      <div className="products" id="about">
+      <div className="productsSecond" id="about">
         <About />
       </div>
       <Footer />
