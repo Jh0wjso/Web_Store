@@ -14,7 +14,6 @@ export default function Social() {
   return (
     <div className="container mb-5">
       <h1 className="mb-3 text-center font-weight-bold">Roupas Sociais</h1>
-      <section>
         <Carousel cols={3} rows={1} gap={10} loop>
           <Carousel.Item>
             <img width="100%" src={Quatro} className="img-product" />
@@ -71,10 +70,6 @@ export default function Social() {
             </a>
           </Carousel.Item>
         </Carousel>
-      </section>
-      <div className="d-flex justify-content-end">
-        <strong>Produtos meramente ilustrativos.</strong>
-      </div>
     </div>
   );
 }
