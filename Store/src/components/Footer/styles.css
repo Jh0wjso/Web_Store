@@ -13,7 +13,7 @@
 }
 
 .iconLinkTwitter:hover {
-  background-image: linear-gradient(var(--blue), #034c99);
+  background-image: linear-gradient(var(--dark-green), var(--green));
   color: var(--white);
 }
 
@@ -22,7 +22,7 @@
   color: var(--white);
 }
 .iconLinkInsta:hover {
-  background-image: linear-gradient(-170deg, var(--light-red), var(--dark-blue));
+  background-image: linear-gradient(-170deg, var(--light-red), #48008b);
   color: var(--white);
 }
 .iconLinkFace:hover {

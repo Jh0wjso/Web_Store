@@ -21,25 +21,25 @@ export default function Footer() {
           </div>
 
           <div>
-            <a href="#!" className="btnSocialMedia mx-2 text-reset">
+            <a href="https://www.facebook.com/daiane.aparecida.3150" className="btnSocialMedia mx-2 text-reset">
               <MDBIcon
                 icon="facebook-f"
                 className="iconSocialMedia iconLinkFace rounded p-2"
               />
             </a>
-            <a href="#!" className="mx-2 text-reset">
+            <a href="https://api.whatsapp.com/send?phone=5514998074693." className="mx-2 text-reset">
               <MDBIcon
-                icon="twitter"
+                icon="whatsapp"
                 className="iconSocialMedia iconLinkTwitter rounded p-2"
               />
             </a>
-            <a href="" className="mx-2 text-reset">
+            <a href="mailto:jhonatansilverio1258@gmail.com" className="mx-2 text-reset">
               <MDBIcon
                 icon="google"
                 className="iconSocialMedia iconLinkMail rounded p-2"
               />
             </a>
-            <a href="" className="mx-2 text-reset">
+            <a href="https://www.instagram.com/stylosbrecho/" className="mx-2 text-reset">
               <MDBIcon
                 icon="instagram"
                 className="iconSocialMedia iconLinkInsta rounded p-2"
@@ -141,11 +141,11 @@ export default function Footer() {
                 </p>
                 <p>
                   <MDBIcon icon="mobile" className="mx-3" />
-                  +55(14) 99798 - 1721
+                  +55(14) 99807 - 4693
                 </p>
                 <p>
-                  <MDBIcon icon="phone" className="mx-3" />
-                  +55(14) 99807 - 4693
+                  <MDBIcon icon="mobile" className="mx-3" />
+                  +55(14) 99798 - 1721
                 </p>
               </MDBCol>
             </MDBRow>
