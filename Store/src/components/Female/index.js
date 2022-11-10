@@ -32,7 +32,7 @@ export default function Female() {
         <Carousel.Item>
           <img width="100%" src={Um} className="img-product" />
           <a
-            href="https://api.whatsapp.com/send?phone=5514998074693&text=Oi%2C%20estou%20interessado(a)%20nao%20vestidos."
+            href="https://api.whatsapp.com/send?phone=5514998074693&text=Oi%2C%20estou%20interessado(a)%20nos%20shorts%20femininos."
             className="btn-interesse border-0 w-100 d-flex justify-content-center p-2 text-white font-weight-bold text-decoration-none "
           >
             Me interesso
@@ -41,7 +41,7 @@ export default function Female() {
         <Carousel.Item>
           <img width="100%" src={Dois} className="img-product" />
           <a
-            href="https://api.whatsapp.com/send?phone=5514998074693&text=Oi%2C%20estou%20interessado(a)%20nas%20cal%C3%A7as."
+            href="https://api.whatsapp.com/send?phone=5514998074693&text=Oi%2C%20estou%20interessado(a)%20nos%20shorts%20femininos."
             className="btn-interesse border-0 w-100 d-flex justify-content-center p-2 text-white text-decoration-none font-weight-bold"
           >
             Me interesso
@@ -50,7 +50,7 @@ export default function Female() {
         <Carousel.Item>
           <img width="100%" src={Tres} className="img-product" />
           <a
-            href="https://api.whatsapp.com/send?phone=5514998074693&text=Oi%2C%20estou%20interessado(a)%20nos%20shorts."
+            href="https://api.whatsapp.com/send?phone=5514998074693&text=Oi%2C%20estou%20interessado(a)%20nos%20shorts%20femininos."
             className="btn-interesse border-0 w-100 d-flex justify-content-center p-2 text-white text-decoration-none font-weight-bold"
           >
             Me interesso
@@ -59,7 +59,7 @@ export default function Female() {
         <Carousel.Item>
           <img width="100%" src={Quatro} className="img-product" />
           <a
-            href="https://api.whatsapp.com/send?phone=5514998074693&text=Oi%2C%20estou%20interessado(a)%20nas%20saias."
+            href="https://api.whatsapp.com/send?phone=5514998074693&text=Oi%2C%20estou%20interessado(a)%20nos%20shorts%20femininos."
             className="btn-interesse border-0 w-100 d-flex justify-content-center p-2 text-white text-decoration-none font-weight-bold"
           >
             Me interesso
@@ -68,7 +68,7 @@ export default function Female() {
         <Carousel.Item>
           <img width="100%" src={Cinco} className="img-product" />
           <a
-            href="https://api.whatsapp.com/send?phone=5514998074693&text=Oi%2C%20estou%20interessado(a)%20nos%20moletons."
+            href="https://api.whatsapp.com/send?phone=5514998074693&text=Oi%2C%20estou%20interessado(a)%20nos%20shorts%20femininos."
             className="btn-interesse border-0 w-100 d-flex justify-content-center p-2 text-white text-decoration-none font-weight-bold"
           >
             Me interesso
@@ -77,7 +77,7 @@ export default function Female() {
         <Carousel.Item>
           <img width="100%" src={Seis} className="img-product" />
           <a
-            href="https://api.whatsapp.com/send?phone=5514998074693&text=Oi%2C%20estou%20interessado(a)%20nas%20blusinhas."
+            href="https://api.whatsapp.com/send?phone=5514998074693&text=Oi%2C%20estou%20interessado(a)%20nas%20calças."
             className="btn-interesse border-0 w-100 d-flex justify-content-center p-2 text-white text-decoration-none font-weight-bold"
           >
             Me interesso
@@ -86,7 +86,7 @@ export default function Female() {
         <Carousel.Item>
           <img width="100%" src={Sete} className="img-product" />
           <a
-            href="https://api.whatsapp.com/send?phone=5514998074693&text=Oi%2C%20estou%20interessado(a)%20nas%20blusinhas."
+            href="https://api.whatsapp.com/send?phone=5514998074693&text=Oi%2C%20estou%20interessado(a)%20nas%20calças."
             className="btn-interesse border-0 w-100 d-flex justify-content-center p-2 text-white text-decoration-none font-weight-bold"
           >
             Me interesso
@@ -95,7 +95,7 @@ export default function Female() {
         <Carousel.Item>
           <img width="100%" src={Oito} className="img-product" />
           <a
-            href="https://api.whatsapp.com/send?phone=5514998074693&text=Oi%2C%20estou%20interessado(a)%20nas%20blusinhas."
+            href="https://api.whatsapp.com/send?phone=5514998074693&text=Oi%2C%20estou%20interessado(a)%20nos%20shorts%20femininos."
             className="btn-interesse border-0 w-100 d-flex justify-content-center p-2 text-white text-decoration-none font-weight-bold"
           >
             Me interesso
@@ -113,7 +113,7 @@ export default function Female() {
         <Carousel.Item>
           <img width="100%" src={Dez} className="img-product" />
           <a
-            href="https://api.whatsapp.com/send?phone=5514998074693&text=Oi%2C%20estou%20interessado(a)%20nas%20blusinhas."
+            href="https://api.whatsapp.com/send?phone=5514998074693&text=Oi%2C%20estou%20interessado(a)%20nas%20calças."
             className="btn-interesse border-0 w-100 d-flex justify-content-center p-2 text-white text-decoration-none font-weight-bold"
           >
             Me interesso
@@ -131,7 +131,7 @@ export default function Female() {
         <Carousel.Item>
           <img width="100%" src={Doze} className="img-product" />
           <a
-            href="https://api.whatsapp.com/send?phone=5514998074693&text=Oi%2C%20estou%20interessado(a)%20nas%20blusinhas."
+            href="https://api.whatsapp.com/send?phone=5514998074693&text=Oi%2C%20estou%20interessado(a)%20nos%20shorts%20femininos."
             className="btn-interesse border-0 w-100 d-flex justify-content-center p-2 text-white text-decoration-none font-weight-bold"
           >
             Me interesso
@@ -203,7 +203,7 @@ export default function Female() {
         <Carousel.Item>
           <img width="100%" src={Vinte} className="img-product" />
           <a
-            href="https://api.whatsapp.com/send?phone=5514998074693&text=Oi%2C%20estou%20interessado(a)%20nas%20blusinhas."
+            href="https://api.whatsapp.com/send?phone=5514998074693&text=Oi%2C%20estou%20interessado(a)%20no%20vestido%20do%20site."
             className="btn-interesse border-0 w-100 d-flex justify-content-center p-2 text-white text-decoration-none font-weight-bold"
           >
             Me interesso
