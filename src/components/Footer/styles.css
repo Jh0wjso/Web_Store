@@ -1,0 +1,45 @@
+.footer-bg {
+  background-image: linear-gradient(var(--purple), var(--light-red));
+}
+
+#navbar-copy {
+  background-color: #040404;
+}
+
+.btnSocialMedia {
+  background-color: #1c1c1c;
+  border-color: #1c1c1c;
+  border-width: 1px;
+}
+
+.iconLinkTwitter:hover {
+  background-image: linear-gradient(var(--dark-green), var(--green));
+  color: var(--white);
+}
+
+.iconLinkMail:hover {
+  background-image: linear-gradient(var(--red), var(--dark-red));
+  color: var(--white);
+}
+.iconLinkInsta:hover {
+  background-image: linear-gradient(-170deg, var(--light-red), #48008b);
+  color: var(--white);
+}
+.iconLinkFace:hover {
+  background-image: linear-gradient(170deg, var(--blue), var(--dark-blue));
+  color: var(--white);
+}
+
+.iconSocialMedia {
+  background-color: var(--light-red);
+  color: var(--white);
+  transition: 1s;
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  -ms-transition: 1s;
+  -o-transition: 1s;
+}
+
+.mail:hover{
+  text-decoration: underline #FFFFFF;
+}
