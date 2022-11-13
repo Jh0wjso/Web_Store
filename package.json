@@ -5,9 +5,9 @@
   "type": "module",
   "homepage": ".",
   "scripts": {
-    "dev": "npm",
-    "build": "npm run build",
-    "preview": "preview"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
   "dependencies": {
     "better-react-carousel": "^1.1.1",
