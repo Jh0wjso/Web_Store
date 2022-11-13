@@ -1,12 +1,11 @@
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
+import Main from './page/main';
 
-import App from './App';
-
-export function Router() {
+export default function Router() {
   return (
     <Routes>
-        <Route path='/' element={<App />} />
+        <Route path='/' element={<Main />} />
     </Routes>
   );
 }
