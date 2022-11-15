@@ -53,7 +53,7 @@ export default function Footer() {
             <MDBRow className="mt-3">
               <MDBCol md="3" lg="4" xl="3" className="mx-auto mb-4 d-flex flex-column align-items-center justify-content-center">
                 <section className="content-left d-flex justify-content-center align-items-center">
-                  <h1 className="text-center font-weight-bold">Stylos <br/><h1 className="ml-5">Store</h1></h1>
+                  <h1 className="text-center font-weight-bold p-0">Stylos <br/><h1 className="ml-5 p-0">Store</h1></h1>
                 </section>
                 <p>
                   Somos uma loja que sempre busca melhor atende-lo e melhor

@@ -5,12 +5,12 @@ export default function About() {
   return (
     <div className="fullContainer fw-bold d-flex justify-content-between mb-3 mx-3 rounded">
       <section className="content-left d-flex justify-content-center align-items-center">
-        <h1 className="text-center font-weight-bold">Stylos <br/><h1 className="ml-5">Store</h1></h1>
+        <h1 className="text-center font-weight-bold text-5xl p-0">Stylos <br/><h1 className="ml-5 p-0">Store</h1></h1>
       </section>
       <div className="border-right m-4 borda" />
       <div className="border-bottom m-4 bordaBottom" />
       <section className="content-right p-5">
-        <h1 className="text-center font-weight-bold">Sobre Nos</h1>
+        <h1 className="text-center font-weight-bold text-3xl mb-3">Sobre Nos</h1>
         <div className="container">
           <span className="pcText text-justify">
             Prazer sou Daiane, sou natural de Tejupa, e fico feliz por voce

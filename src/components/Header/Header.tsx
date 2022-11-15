@@ -14,7 +14,7 @@ export default function Header() {
     >
       <Container className="d-flex flex-row justify-content-between">
         <Navbar.Brand className="justify-content-start">
-          <h1>
+          <h1 className="p-0">
             <strong className="nameStore">Stylos</strong>
           </h1>
         </Navbar.Brand>

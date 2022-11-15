@@ -1,11 +1,11 @@
-import React from "react";
-import "./App.css";
-import Main from "./page/main";
+import Main from "./pages/Main"
 
 function App() {
   return (
-    <Main />
-  );
+    <div>
+      <Main/>
+    </div>
+  )
 }
 
-export default App;
+export default App
