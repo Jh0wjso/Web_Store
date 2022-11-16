@@ -62,7 +62,7 @@ export default function Beauty() {
           <Carousel.Item>
             <img width="100%" src={Musk} className="img-product" />
             <a
-              href="https://api.whatsapp.com/send?phone=5514998074693&text=Oi%2C%20estou%20interessado(a)%20no%Musk."
+              href="https://api.whatsapp.com/send?phone=5514998074693&text=Oi%2C%20estou%20interessado(a)%20no%20Musk."
               target={"_blank"}
               className="btn-interesse border-0 w-100 d-flex justify-content-center p-2 text-white text-decoration-none font-weight-bold"
             >
@@ -72,7 +72,7 @@ export default function Beauty() {
           <Carousel.Item>
             <img width="100%" src={Segno} className="img-product" />
             <a
-              href="https://api.whatsapp.com/send?phone=5514998074693&text=Oi%2C%20estou%20interessado(a)%20no%Segno."
+              href="https://api.whatsapp.com/send?phone=5514998074693&text=Oi%2C%20estou%20interessado(a)%20no%20Segno."
               target={"_blank"}
               className="btn-interesse border-0 w-100 d-flex justify-content-center p-2 text-white text-decoration-none font-weight-bold"
             >
@@ -82,7 +82,7 @@ export default function Beauty() {
           <Carousel.Item>
             <img width="100%" src={Essential} className="img-product" />
             <a
-              href="https://api.whatsapp.com/send?phone=5514998074693&text=Oi%2C%20estou%20interessado(a)%20no%Essential."
+              href="https://api.whatsapp.com/send?phone=5514998074693&text=Oi%2C%20estou%20interessado(a)%20no%20Essential."
               target={"_blank"}
               className="btn-interesse border-0 w-100 d-flex justify-content-center p-2 text-white text-decoration-none font-weight-bold"
             >
@@ -92,7 +92,7 @@ export default function Beauty() {
           <Carousel.Item>
             <img width="100%" src={Surreal} className="img-product" />
             <a
-              href="https://api.whatsapp.com/send?phone=5514998074693&text=Oi%2C%20estou%20interessado(a)%20no%Surreal."
+              href="https://api.whatsapp.com/send?phone=5514998074693&text=Oi%2C%20estou%20interessado(a)%20no%20Surreal."
               target={"_blank"}
               className="btn-interesse border-0 w-100 d-flex justify-content-center p-2 text-white text-decoration-none font-weight-bold"
             >
@@ -102,7 +102,7 @@ export default function Beauty() {
           <Carousel.Item>
             <img width="100%" src={Victory} className="img-product" />
             <a
-              href="https://api.whatsapp.com/send?phone=5514998074693&text=Oi%2C%20estou%20interessado(a)%20no%Victory."
+              href="https://api.whatsapp.com/send?phone=5514998074693&text=Oi%2C%20estou%20interessado(a)%20no%20Victory."
               target={"_blank"}
               className="btn-interesse border-0 w-100 d-flex justify-content-center p-2 text-white text-decoration-none font-weight-bold"
             >
