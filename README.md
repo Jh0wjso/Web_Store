@@ -6,7 +6,6 @@ This website is a lading page for a store, this project was created using ReactJ
 
 * [ReactJs](https://reactjs.org/docs/getting-started.html) - Web Framework
 * [TypeScript](https://reactjs.org/docs/getting-started.html) - Programming language
-* [ReactBootstrap](https://react-bootstrap.github.io/) - Web Framework
 * [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS) - Style Sheet Language
 
 ## 📌 Version
