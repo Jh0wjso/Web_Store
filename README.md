@@ -1,6 +1,6 @@
 # 📓 WebStore
 
-This website is a lading page for a store, this project was created using ReactJs and React Bootstrap on front-end.
+This website is a lading page for a store, this project was created using ReactJs on front-end.
 
 ## 🛠️ Tools used to create the Client
 
