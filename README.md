@@ -2,14 +2,11 @@
 
 This website is a lading page for a store, this project was created using ReactJs and React Bootstrap on front-end.
 
-## 💻 Client
-
-This code is the website where there is online documentation for users to better understand the application if they have any questions about the app, or if they want to get in touch with the development team.
-
 ## 🛠️ Tools used to create the Client
 
 * [ReactJs](https://reactjs.org/docs/getting-started.html) - Web Framework
 * [TypeScript](https://reactjs.org/docs/getting-started.html) - Programming language
+* [ReactBootstrap](https://react-bootstrap.github.io/) - Web Framework
 * [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS) - Style Sheet Language
 
 ## 📌 Version
